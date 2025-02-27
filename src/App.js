@@ -25,13 +25,8 @@ const NBAPredictor = () => {
   const [error, setError] = useState(null);
   const dataLoaded = useRef(false);
 
-  // For demo purposes, this can read a local CSV file
-  // In production, you'd set up proper file serving
   useEffect(() => {
-    // This simulates checking the status file your Python code creates
     const checkProgress = () => {
-      // For demo: simulate progress updates from Python
-      // In production, you would fetch status.json
       const timer = setTimeout(() => {
         if (progress < 100) {
           setProgress(prev => Math.min(prev + 5, 100));
@@ -41,28 +36,22 @@ const NBAPredictor = () => {
           clearInterval(progressInterval);
         }
       }, 500);
-      
       return () => clearTimeout(timer);
     };
     
     const progressInterval = setInterval(checkProgress, 500);
     
-    // Load prediction data from CSV file - but only once
     if (!dataLoaded.current) {
       dataLoaded.current = true;
       
       setTimeout(() => {
-        // Get current date in YYYY_MM_DD format
         const today = new Date();
         const year = today.getFullYear();
         const month = String(today.getMonth() + 1).padStart(2, '0');
         const day = String(today.getDate()).padStart(2, '0');
         const dateStr = `${year}-${month}-${day}`;
-        
-        // Path to predictions file
         const filePath = `predictions/predictions_${dateStr}.csv`;
         
-        // Fetch the CSV file
         fetch(filePath)
           .then(response => {
             if (!response.ok) {
@@ -76,24 +65,20 @@ const NBAPredictor = () => {
               dynamicTyping: true,
               complete: (results) => {
                 if (results.data && results.data.length > 0) {
-                  // Filter for valid data (remove empty rows)
                   const validData = results.data.filter(row => 
                     row.PLAYER_NAME && row.Prop_Type && row.Line !== undefined
                   );
                   
-                  // Apply the filtering criteria for high confidence picks
+                  // Build a list of high confidence picks that match the desired prop types
+                  const desiredPropTypes = [
+                    'Fantasy score', 
+                    'Points assists rebounds', 
+                    'Rebounds assists', 
+                    'Points rebounds'
+                  ];
+                  
                   const highConfidencePicks = validData.filter(pick => {
-                    // Check if it's one of the specified prop types
-                    const desiredPropTypes = [
-                      'Fantasy score', 
-                      'Points assists rebounds', 
-                      'Rebounds assists', 
-                      'Points rebounds'
-                    ];
-                    
                     const isPropTypeMatch = desiredPropTypes.includes(pick.Prop_Type);
-                    
-                    // Check if it meets all the confidence criteria
                     const meetsConfidenceCriteria = 
                       pick.xgboost > 0.65 && 
                       pick.xgboost_rf > 0.55 && 
@@ -105,24 +90,24 @@ const NBAPredictor = () => {
                     return isPropTypeMatch && meetsConfidenceCriteria;
                   });
                   
-                  // Sort by xgboost confidence (highest first)
+                  // Also sort the entire valid data by xgboost (if you need to use it as fallback)
                   const sortedData = validData.sort((a, b) => b.xgboost - a.xgboost);
                   
-                  // Select the top pick
                   let selectedPick;
                   let confidenceValue;
                   
                   if (highConfidencePicks.length > 0) {
-                    // If we have high confidence picks that match all criteria, use the highest one
-                    const bestPick = highConfidencePicks.sort((a, b) => b.xgboost - a.xgboost)[0];
+                    // Randomly select a pick from highConfidencePicks
+                    const randomIndex = Math.floor(Math.random() * highConfidencePicks.length);
+                    const randomPick = highConfidencePicks[randomIndex];
+                    
                     selectedPick = {
-                      ...bestPick,
-                      // Convert prop type to all uppercase
-                      Prop_Type: bestPick.Prop_Type.toUpperCase()
+                      ...randomPick,
+                      Prop_Type: randomPick.Prop_Type.toUpperCase()
                     };
-                    confidenceValue = Math.round(bestPick.xgboost * 100);
+                    confidenceValue = Math.round(randomPick.xgboost * 100);
                   } else {
-                    // Fallback to highest xgboost confidence pick if no high confidence picks match criteria
+                    // Fallback: use the highest xgboost confidence pick from all valid data
                     selectedPick = {
                       ...sortedData[0],
                       Prop_Type: sortedData[0].Prop_Type.toUpperCase()
@@ -130,7 +115,6 @@ const NBAPredictor = () => {
                     confidenceValue = Math.round(sortedData[0].xgboost * 100);
                   }
                   
-                  // Set all the state at once
                   setPredictions(sortedData);
                   setTopPick(selectedPick);
                   setConfidence(confidenceValue);
@@ -159,7 +143,6 @@ const NBAPredictor = () => {
     };
   }, [progress]);
 
-  // Using original icons from your initial code
   const stages = [
     { name: "LOADING PLAYER DATA", icon: <Database color="#3b82f6" size={24} /> },
     { name: "FEATURE ENGINEERING", icon: <Server color="#8b5cf6" size={24} /> },
@@ -168,7 +151,8 @@ const NBAPredictor = () => {
     { name: "FINALIZING PREDICTION", icon: <Activity color="#10b981" size={24} /> }
   ];
 
-  // Style variables for custom CSS
+  // (The rest of your style variables remain unchanged)
+
   const styles = {
     container: {
       backgroundColor: "#000",
@@ -455,9 +439,7 @@ const NBAPredictor = () => {
                   OVER {topPick.Line} {topPick.Prop_Type}
                 </div>
                 
-                {/* Display ALL models with confidence values */}
                 <div style={styles.allModelsGrid}>
-                  {/* Classification models */}
                   <div style={styles.modelBox}>
                     <div style={styles.modelName}>XGBOOST</div>
                     <div style={styles.modelValue}>{(topPick.xgboost * 100).toFixed(1)}%</div>
@@ -474,8 +456,6 @@ const NBAPredictor = () => {
                     <div style={styles.modelName}>ADVANCED NN</div>
                     <div style={styles.modelValue}>{(topPick.Adv_NN * 100).toFixed(1)}%</div>
                   </div>
-                  
-                  {/* Regression models */}
                   <div style={styles.modelBox}>
                     <div style={styles.modelName}>XGB REG</div>
                     <div style={styles.modelValueReg}>{topPick.xgb_reg.toFixed(2)}</div>
