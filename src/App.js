@@ -74,7 +74,8 @@ const NBAPredictor = () => {
                     'Fantasy score', 
                     'Points assists rebounds', 
                     'Rebounds assists', 
-                    'Points rebounds'
+                    'Points rebounds',
+                    'Rebounds'
                   ];
                   
                   const highConfidencePicks = validData.filter(pick => {
