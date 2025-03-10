@@ -372,7 +372,7 @@ const NBAPredictor = () => {
   return (
     <div style={styles.container}>
       <div style={styles.header}>
-        <h1 style={styles.title}>NBA AI PREDICTOR</h1>
+        <h1 style={styles.title}>PROPSTRADAMUS</h1>
         <p style={styles.subtitle}>POWERED BY ADVANCED MACHINE LEARNING</p>
       </div>
 
