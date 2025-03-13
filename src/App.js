@@ -72,10 +72,11 @@ const NBAPredictor = () => {
                   // Build a list of high confidence picks that match the desired prop types
                   const desiredPropTypes = [
                     'Fantasy score', 
-                    'Points assists rebounds', 
-                    'Rebounds assists', 
-                    'Points rebounds',
-                    'Rebounds'
+                    //'Points assists rebounds', 
+                    //'Rebounds assists', 
+                    //'Points rebounds',
+                    //'Rebounds',
+                    'Points assists'
                   ];
                   
                   const highConfidencePicks = validData.filter(pick => {
