@@ -1,0 +1,964 @@
+PLAYER_NAME,Prop_Type,Line,xgboost,xgboost_rf,catboost,Adv_NN,xgb_reg,xgb_rf_reg
+Obi Toppin,Assists,0.5,0.799,0.738,1.0,0.691,1.427,1.42
+Ivica Zubac,Assists,1.5,0.714,0.68,1.0,0.689,2.576,2.386
+Bam Adebayo,Assists,2.5,0.684,0.732,1.0,0.507,3.863,3.303
+James Harden,Assists,9.5,0.677,0.564,1.0,0.694,9.335,8.593
+Donte DiVincenzo,Assists,2.5,0.657,0.603,1.0,0.83,3.219,3.06
+Kawhi Leonard,Assists,2.5,0.656,0.6,1.0,0.596,3.272,2.834
+Fred VanVleet,Assists,5.0,0.651,0.62,1.0,0.64,5.552,5.463
+Mark Williams,Assists,1.5,0.642,0.671,1.0,0.75,2.49,2.269
+Davion Mitchell,Assists,4.0,0.635,0.589,1.0,0.644,4.284,4.475
+Dyson Daniels,Assists,4.0,0.622,0.624,1.0,0.524,4.384,4.382
+Jabari Smith Jr.,Assists,0.5,0.622,0.644,1.0,0.496,1.154,1.058
+Nick Richards,Assists,0.5,0.621,0.622,1.0,0.269,0.996,1.034
+Isaiah Collier,Assists,7.5,0.62,0.541,1.0,0.737,7.018,6.406
+Alperen Sengun,Assists,5.0,0.606,0.618,1.0,0.427,5.336,5.213
+Mike Conley,Assists,4.0,0.603,0.52,1.0,0.52,4.316,4.299
+Scottie Barnes,Assists,4.0,0.596,0.586,1.0,0.643,4.814,5.138
+Terance Mann,Assists,1.5,0.595,0.574,1.0,0.879,1.942,1.878
+Trae Young,Assists,10.5,0.588,0.556,0.0,0.769,9.317,8.975
+Caris LeVert,Assists,2.5,0.583,0.606,1.0,0.754,3.124,2.959
+Desmond Bane,Assists,5.0,0.581,0.595,1.0,0.679,5.381,5.198
+Kel'el Ware,Assists,0.5,0.568,0.648,1.0,0.503,1.053,0.975
+Bradley Beal,Assists,4.0,0.566,0.557,1.0,0.712,4.193,4.17
+Stephon Castle,Assists,3.5,0.565,0.534,1.0,0.468,4.012,3.668
+Andrew Nembhard,Assists,3.5,0.555,0.602,1.0,0.492,4.215,4.186
+Franz Wagner,Assists,3.5,0.545,0.539,1.0,0.456,3.951,3.845
+Devin Booker,Assists,7.0,0.54,0.572,1.0,0.61,7.364,7.019
+Miles Bridges,Assists,4.0,0.534,0.609,1.0,0.508,4.378,4.351
+Cole Anthony,Assists,2.5,0.53,0.515,0.0,0.432,2.87,2.722
+Terry Rozier,Assists,1.5,0.526,0.569,1.0,0.471,2.132,2.181
+Domantas Sabonis,Assists,3.5,0.519,0.486,1.0,0.777,4.581,4.439
+Mouhamed Gueye,Assists,0.5,0.518,0.569,1.0,0.242,0.868,0.876
+Julius Randle,Assists,4.5,0.514,0.466,0.0,0.703,4.559,4.576
+RJ Barrett,Assists,5.0,0.511,0.671,1.0,0.654,5.654,5.533
+Andrew Wiggins,Assists,2.5,0.507,0.484,1.0,0.319,2.561,2.547
+Jamal Murray,Assists,5.5,0.503,0.534,1.0,0.659,5.86,5.577
+Russell Westbrook,Assists,5.0,0.497,0.574,1.0,0.649,5.383,5.341
+Anthony Edwards,Assists,4.5,0.493,0.494,0.0,0.543,4.499,4.575
+De'Andre Hunter,Assists,1.5,0.49,0.453,0.0,0.509,1.486,1.475
+Onyeka Okongwu,Assists,3.5,0.488,0.406,0.0,0.385,2.937,3.22
+Austin Reaves,Assists,6.5,0.484,0.502,0.0,0.363,5.845,6.215
+LaMelo Ball,Assists,7.5,0.484,0.559,1.0,0.556,7.255,7.293
+Ja Morant,Assists,7.0,0.48,0.547,1.0,0.604,6.731,6.877
+Chris Paul,Assists,8.0,0.479,0.556,1.0,0.741,6.809,7.415
+Tyrese Haliburton,Assists,9.0,0.467,0.486,1.0,0.841,8.288,7.926
+Evan Mobley,Assists,4.0,0.462,0.485,0.0,0.397,4.023,4.047
+Aaron Nesmith,Assists,1.5,0.456,0.452,0.0,0.297,1.631,1.576
+Zaccharie Risacher,Assists,1.5,0.455,0.453,0.0,0.372,1.524,1.507
+Darius Garland,Assists,8.0,0.453,0.469,0.0,0.337,6.893,6.666
+Kevin Durant,Assists,6.5,0.453,0.454,0.0,0.228,6.063,6.214
+DeMar DeRozan,Assists,4.5,0.451,0.496,0.0,0.244,4.555,4.315
+Max Strus,Assists,3.5,0.444,0.482,0.0,0.124,3.587,3.378
+Jalen Green,Assists,5.5,0.443,0.447,0.0,0.375,4.5,4.636
+Jaren Jackson Jr.,Assists,2.5,0.441,0.401,1.0,0.182,2.177,2.389
+Walker Kessler,Assists,1.5,0.441,0.506,1.0,0.322,1.953,1.761
+Malik Monk,Assists,5.5,0.436,0.52,1.0,0.523,5.783,5.547
+Harrison Barnes,Assists,2.5,0.433,0.45,0.0,0.511,2.305,2.035
+Tyler Herro,Assists,6.0,0.432,0.505,0.0,0.453,5.513,5.669
+Jaylen Wells,Assists,2.5,0.43,0.336,0.0,0.265,1.872,1.969
+Georges Niang,Assists,1.5,0.429,0.453,0.0,0.6,1.747,1.605
+Jayson Tatum,Assists,6.5,0.427,0.482,0.0,0.497,6.727,6.268
+Aaron Gordon,Assists,3.5,0.426,0.465,0.0,0.3,3.19,3.312
+Immanuel Quickley,Assists,7.5,0.416,0.605,1.0,0.477,6.527,6.406
+Michael Porter Jr.,Assists,2.5,0.416,0.433,0.0,0.244,2.178,2.429
+Jeremy Sochan,Assists,4.5,0.406,0.365,0.0,0.275,3.422,3.884
+Jarrett Allen,Assists,3.5,0.405,0.365,0.0,0.267,2.738,2.468
+T.J. McConnell,Assists,4.5,0.405,0.439,1.0,0.41,4.013,3.903
+Devin Vassell,Assists,5.5,0.404,0.43,0.0,0.23,4.462,4.613
+Zach LaVine,Assists,5.5,0.404,0.446,0.0,0.261,4.765,4.832
+Dalton Knecht,Assists,1.5,0.401,0.418,0.0,0.553,1.216,1.056
+DaQuan Jeffries,Assists,1.5,0.399,0.362,0.0,0.158,1.258,1.206
+Isaac Okoro,Assists,2.5,0.385,0.306,0.0,0.012,1.739,1.81
+Paolo Banchero,Assists,4.5,0.382,0.443,0.0,0.32,4.32,4.577
+Klay Thompson,Assists,3.5,0.381,0.331,0.0,0.222,3.017,3.194
+Collin Sexton,Assists,6.5,0.377,0.44,0.0,0.353,5.894,6.263
+Dillon Brooks,Assists,3.5,0.37,0.418,0.0,0.297,2.753,2.49
+Myles Turner,Assists,2.5,0.37,0.411,0.0,0.451,2.056,1.804
+Ty Jerome,Assists,6.5,0.368,0.362,0.0,0.03,4.764,5.62
+Kris Dunn,Assists,5.5,0.346,0.421,0.0,0.148,4.24,4.515
+Josh Green,Assists,2.5,0.345,0.346,0.0,0.136,1.91,1.903
+Christian Braun,Assists,3.5,0.339,0.431,0.0,0.061,2.952,3.208
+Tari Eason,Assists,2.5,0.318,0.357,0.0,0.332,1.955,1.885
+Nikola Jokic,Assists,10.0,0.284,0.472,0.0,0.571,8.633,8.875
+Keegan Murray,Assists,2.5,0.278,0.3,0.0,0.187,1.777,1.841
+Scottie Barnes,Blocks,0.5,0.728,0.722,1.0,0.767,1.343,1.291
+Ivica Zubac,Blocks,0.5,0.705,0.731,1.0,0.754,1.292,1.238
+Mouhamed Gueye,Blocks,0.5,0.644,0.643,1.0,0.835,1.119,1.133
+Tari Eason,Blocks,0.5,0.603,0.6,1.0,0.782,0.934,0.948
+Kel'el Ware,Blocks,0.5,0.576,0.538,1.0,0.88,1.043,0.962
+Jarrett Allen,Blocks,0.5,0.547,0.625,1.0,0.795,0.895,0.899
+P.J. Washington,Blocks,1.5,0.547,0.338,0.0,0.73,1.403,1.175
+Devin Vassell,Blocks,0.5,0.51,0.444,0.0,0.545,0.588,0.577
+Thomas Bryant,Blocks,0.5,0.5,0.476,0.0,0.018,0.701,0.674
+Dyson Daniels,Blocks,0.5,0.496,0.469,0.0,0.355,0.682,0.704
+Keegan Murray,Blocks,0.5,0.483,0.486,1.0,0.665,0.836,0.89
+Evan Mobley,Blocks,1.5,0.47,0.456,0.0,0.766,1.841,1.669
+Walker Kessler,Blocks,3.5,0.438,0.59,1.0,0.63,2.826,2.571
+Malik Monk,Blocks,0.5,0.412,0.389,0.0,0.586,0.553,0.593
+Lauri Markkanen,Blocks,0.5,0.402,0.376,0.0,0.598,0.438,0.37
+Bradley Beal,Blocks,0.5,0.398,0.383,0.0,0.439,0.533,0.532
+Brandon Clarke,Blocks,0.5,0.396,0.397,0.0,0.547,0.566,0.527
+Jamal Murray,Blocks,0.5,0.38,0.33,0.0,0.329,0.493,0.499
+Mark Williams,Blocks,2.5,0.372,0.417,0.0,0.379,1.378,1.366
+Miles Bridges,Blocks,1.5,0.362,0.277,0.0,0.555,0.843,0.747
+Caris LeVert,Blocks,0.5,0.36,0.363,0.0,0.403,0.444,0.491
+Zach Edey,Blocks,1.5,0.36,0.318,0.0,0.56,1.307,1.179
+Michael Porter Jr.,Blocks,0.5,0.351,0.302,0.0,0.373,0.433,0.444
+Kevin Durant,Blocks,2.5,0.345,0.335,0.0,0.294,1.441,1.432
+Fred VanVleet,Blocks,0.5,0.343,0.33,0.0,0.319,0.435,0.436
+Zaccharie Risacher,Blocks,0.5,0.337,0.378,0.0,0.428,0.445,0.49
+Kris Dunn,Blocks,0.5,0.331,0.324,0.0,0.151,0.387,0.36
+Nick Richards,Blocks,1.5,0.327,0.268,0.0,0.309,1.104,1.06
+Desmond Bane,Blocks,0.5,0.318,0.333,0.0,0.117,0.43,0.432
+RJ Barrett,Blocks,0.5,0.318,0.353,0.0,0.139,0.37,0.332
+Stephon Castle,Blocks,0.5,0.307,0.233,0.0,0.216,0.234,0.223
+DeMar DeRozan,Blocks,0.5,0.305,0.265,0.0,0.008,0.287,0.333
+LaMelo Ball,Blocks,0.5,0.304,0.296,0.0,0.078,0.387,0.342
+Immanuel Quickley,Blocks,0.5,0.298,0.235,0.0,0.093,0.193,0.16
+Jalen Green,Blocks,0.5,0.272,0.246,0.0,0.405,0.285,0.28
+Terance Mann,Blocks,0.5,0.248,0.25,0.0,0.429,0.284,0.277
+Harrison Barnes,Blocks,0.5,0.247,0.201,0.0,0.244,0.202,0.199
+Domantas Sabonis,Blocks,0.5,0.233,0.229,0.0,0.023,0.363,0.385
+Onyeka Okongwu,Blocks,1.5,0.232,0.221,0.0,0.358,0.964,0.936
+James Harden,Blocks,1.5,0.228,0.345,0.0,0.554,0.71,0.644
+Josh Green,Blocks,0.5,0.223,0.202,0.0,0.039,0.216,0.203
+Andrew Wiggins,Blocks,1.5,0.221,0.228,0.0,0.177,0.749,0.711
+Kawhi Leonard,Blocks,1.5,0.219,0.379,0.0,0.694,0.639,0.49
+Max Strus,Blocks,0.5,0.212,0.289,0.0,0.021,0.3,0.282
+Isaiah Collier,Blocks,0.5,0.205,0.223,0.0,0.032,0.225,0.204
+Dillon Brooks,Blocks,0.5,0.197,0.2,0.0,0.297,0.253,0.209
+DaQuan Jeffries,Blocks,1.5,0.186,0.244,0.0,0.043,0.523,0.518
+Devin Booker,Blocks,0.5,0.184,0.194,0.0,0.191,0.221,0.25
+Christian Braun,Blocks,1.5,0.176,0.25,0.0,0.239,0.654,0.549
+Zach LaVine,Blocks,0.5,0.175,0.176,0.0,0.061,0.199,0.204
+Trae Young,Blocks,0.5,0.172,0.134,0.0,0.203,0.194,0.192
+Tyler Herro,Blocks,0.5,0.169,0.16,0.0,0.088,0.227,0.206
+Aaron Gordon,Blocks,0.5,0.165,0.178,0.0,0.154,0.225,0.234
+Nikola Jokic,Blocks,1.5,0.164,0.306,0.0,0.347,0.744,0.662
+Davion Mitchell,Blocks,0.5,0.149,0.15,0.0,0.009,0.168,0.194
+Darius Garland,Blocks,0.5,0.148,0.208,0.0,0.015,0.195,0.171
+Ja Morant,Blocks,0.5,0.148,0.209,0.0,0.009,0.238,0.258
+Chris Paul,Blocks,0.5,0.135,0.152,0.0,0.106,0.18,0.181
+Collin Sexton,Blocks,0.5,0.125,0.145,0.0,0.067,0.118,0.102
+De'Andre Hunter,Blocks,0.5,0.122,0.204,0.0,0.006,0.217,0.191
+Andrew Nembhard,Blocks,0.5,0.099,0.145,0.0,0.006,0.167,0.162
+Dyson Daniels,Fantasy score,34.0,0.709,0.675,1.0,0.509,37.321,35.086
+Trae Young,Fantasy score,43.5,0.657,0.601,1.0,0.498,45.619,44.003
+Kris Dunn,Fantasy score,20.5,0.622,0.584,1.0,0.629,22.621,20.958
+Collin Sexton,Fantasy score,30.0,0.614,0.646,1.0,0.301,32.699,30.985
+Keegan Murray,Fantasy score,25.5,0.614,0.623,1.0,0.239,28.104,27.666
+Walker Kessler,Fantasy score,38.5,0.612,0.651,1.0,0.551,43.588,40.307
+Miles Bridges,Fantasy score,44.0,0.607,0.636,1.0,0.565,46.204,44.294
+Mouhamed Gueye,Fantasy score,17.0,0.607,0.614,1.0,0.359,17.996,17.857
+Fred VanVleet,Fantasy score,28.5,0.604,0.67,1.0,0.602,30.883,29.391
+Mark Williams,Fantasy score,37.5,0.604,0.633,1.0,0.859,38.795,39.172
+RJ Barrett,Fantasy score,35.0,0.604,0.638,1.0,0.585,38.461,36.991
+Josh Green,Fantasy score,15.5,0.602,0.552,1.0,0.105,17.441,16.092
+Zach LaVine,Fantasy score,32.5,0.599,0.577,0.0,0.361,34.421,34.403
+Alperen Sengun,Fantasy score,42.5,0.596,0.575,1.0,0.673,42.649,43.576
+Darius Garland,Fantasy score,39.5,0.596,0.556,0.0,0.299,39.671,39.098
+Christian Braun,Fantasy score,28.5,0.588,0.561,1.0,0.499,29.577,29.055
+Myles Turner,Fantasy score,32.5,0.584,0.644,1.0,0.359,34.567,34.038
+Dillon Brooks,Fantasy score,22.5,0.58,0.552,1.0,0.4,23.999,23.833
+Nikola Jokic,Fantasy score,62.5,0.577,0.546,0.0,0.542,58.777,59.516
+LaMelo Ball,Fantasy score,43.0,0.576,0.615,1.0,0.585,45.746,43.805
+Malik Monk,Fantasy score,32.0,0.572,0.624,1.0,0.429,35.066,33.945
+Desmond Bane,Fantasy score,35.0,0.567,0.553,1.0,0.614,37.224,35.592
+Zaccharie Risacher,Fantasy score,18.0,0.563,0.592,1.0,0.297,20.989,19.362
+Bradley Beal,Fantasy score,30.5,0.553,0.618,1.0,0.288,33.979,31.938
+Terance Mann,Fantasy score,17.0,0.552,0.521,0.0,0.048,18.511,17.999
+Isaiah Collier,Fantasy score,24.5,0.551,0.56,1.0,0.202,24.69,24.357
+Lauri Markkanen,Fantasy score,31.0,0.549,0.599,1.0,0.395,32.804,32.076
+Michael Porter Jr.,Fantasy score,31.5,0.548,0.592,1.0,0.577,32.897,32.492
+Zach Edey,Fantasy score,21.5,0.546,0.568,1.0,0.698,22.546,22.417
+Ivica Zubac,Fantasy score,42.0,0.543,0.575,1.0,0.475,41.61,42.639
+Caris LeVert,Fantasy score,24.0,0.536,0.599,1.0,0.284,26.329,25.449
+Nick Richards,Fantasy score,23.5,0.532,0.523,1.0,0.11,24.112,24.853
+Chris Paul,Fantasy score,29.0,0.525,0.545,1.0,0.216,28.522,28.964
+Evan Mobley,Fantasy score,43.5,0.525,0.577,0.0,0.381,43.584,44.287
+Max Strus,Fantasy score,22.5,0.525,0.499,0.0,0.519,22.302,22.983
+Kawhi Leonard,Fantasy score,41.0,0.524,0.536,1.0,0.504,40.402,41.098
+Onyeka Okongwu,Fantasy score,33.0,0.515,0.594,1.0,0.23,33.096,33.974
+Jalen Green,Fantasy score,33.5,0.513,0.587,1.0,0.523,35.337,34.331
+Harrison Barnes,Fantasy score,22.5,0.512,0.485,0.0,0.173,22.955,23.054
+Tari Eason,Fantasy score,32.5,0.51,0.578,1.0,0.676,32.321,32.371
+Devin Vassell,Fantasy score,34.5,0.499,0.505,1.0,0.181,34.132,35.493
+Jabari Smith Jr.,Fantasy score,24.5,0.49,0.525,1.0,0.199,25.161,25.389
+Kel'el Ware,Fantasy score,22.0,0.488,0.551,1.0,0.353,23.358,22.605
+Pascal Siakam,Fantasy score,36.0,0.488,0.592,0.0,0.672,37.066,37.052
+Immanuel Quickley,Fantasy score,31.0,0.487,0.571,1.0,0.454,32.929,32.005
+DaQuan Jeffries,Fantasy score,17.5,0.484,0.479,0.0,0.037,16.714,15.628
+Scottie Barnes,Fantasy score,37.5,0.479,0.628,1.0,0.555,40.791,39.538
+Kevin Durant,Fantasy score,43.5,0.478,0.571,1.0,0.535,46.415,46.224
+Andrew Wiggins,Fantasy score,30.5,0.475,0.55,1.0,0.282,31.125,31.414
+De'Andre Hunter,Fantasy score,23.5,0.474,0.528,1.0,0.623,24.452,24.585
+Stephon Castle,Fantasy score,33.5,0.474,0.494,0.0,0.195,32.289,33.286
+Tyler Herro,Fantasy score,38.0,0.474,0.488,1.0,0.413,37.404,38.111
+Davion Mitchell,Fantasy score,15.5,0.47,0.434,0.0,0.166,15.143,16.118
+James Harden,Fantasy score,48.0,0.464,0.593,1.0,0.559,49.015,48.315
+Aaron Nesmith,Fantasy score,21.0,0.46,0.532,1.0,0.048,21.602,21.324
+Jarrett Allen,Fantasy score,35.5,0.458,0.526,0.0,0.371,34.48,34.902
+Aaron Gordon,Fantasy score,24.0,0.457,0.503,1.0,0.039,24.099,24.867
+Isaac Okoro,Fantasy score,16.5,0.449,0.479,0.0,0.104,15.101,14.157
+Jaren Jackson Jr.,Fantasy score,34.5,0.447,0.552,1.0,0.609,33.769,35.586
+Jaylen Wells,Fantasy score,18.0,0.447,0.45,1.0,0.368,18.784,17.883
+Ja Morant,Fantasy score,40.0,0.445,0.492,0.0,0.446,39.448,39.194
+Bam Adebayo,Fantasy score,39.5,0.438,0.449,0.0,0.263,38.263,39.049
+Klay Thompson,Fantasy score,26.5,0.436,0.539,1.0,0.182,26.918,27.254
+Ty Jerome,Fantasy score,26.5,0.436,0.458,0.0,0.324,25.769,27.064
+P.J. Washington,Fantasy score,30.5,0.435,0.456,0.0,0.244,27.13,30.786
+DeMar DeRozan,Fantasy score,35.5,0.434,0.539,1.0,0.298,38.009,37.162
+Domantas Sabonis,Fantasy score,37.5,0.422,0.487,1.0,0.633,37.938,39.509
+Devin Booker,Fantasy score,42.0,0.418,0.514,1.0,0.498,43.963,43.098
+Jamal Murray,Fantasy score,37.5,0.411,0.527,0.0,0.305,39.444,38.029
+Andrew Nembhard,Fantasy score,23.0,0.364,0.449,0.0,0.447,21.935,24.051
+Tyrese Haliburton,Fantasy score,42.0,0.361,0.53,1.0,0.452,41.039,42.762
+Trae Young,Points,25.5,0.732,0.63,1.0,0.526,27.133,24.428
+Collin Sexton,Points,19.5,0.695,0.61,1.0,0.546,20.351,19.044
+Immanuel Quickley,Points,13.5,0.625,0.532,1.0,0.661,16.42,15.008
+Nikola Jokic,Points,27.0,0.625,0.512,1.0,0.613,30.995,28.352
+Franz Wagner,Points,22.5,0.618,0.529,1.0,0.748,23.776,23.691
+Lauri Markkanen,Points,18.5,0.616,0.552,1.0,0.7,20.109,19.23
+Amir Coffey,Points,8.0,0.594,0.581,1.0,0.2,9.723,8.824
+Kel'el Ware,Points,7.5,0.59,0.533,1.0,0.325,8.523,8.537
+Brice Sensabaugh,Points,9.0,0.588,0.567,1.0,0.685,11.304,9.613
+De'Andre Hunter,Points,14.5,0.588,0.534,1.0,0.611,16.836,16.116
+Klay Thompson,Points,15.5,0.582,0.415,0.0,0.38,15.192,14.753
+Harrison Barnes,Points,12.5,0.58,0.484,1.0,0.506,12.68,12.371
+Keldon Johnson,Points,15.5,0.567,0.471,1.0,0.218,14.571,15.268
+Bennedict Mathurin,Points,13.5,0.562,0.592,1.0,0.435,16.065,14.733
+Jalen Green,Points,21.5,0.556,0.542,1.0,0.742,21.979,21.563
+Kentavious Caldwell-Pope,Points,8.5,0.555,0.444,0.0,0.554,8.317,7.966
+Luke Kennard,Points,9.5,0.554,0.514,1.0,0.403,10.564,9.729
+Desmond Bane,Points,19.5,0.55,0.463,1.0,0.523,20.726,19.313
+Russell Westbrook,Points,12.5,0.55,0.472,0.0,0.511,13.741,13.314
+Walker Kessler,Points,12.0,0.548,0.539,1.0,0.573,13.515,11.917
+Jusuf Nurkić,Points,4.5,0.546,0.568,0.0,0.111,7.558,6.449
+Nicolas Batum,Points,6.0,0.546,0.42,0.0,0.051,5.029,4.635
+Zach LaVine,Points,21.0,0.542,0.494,0.0,0.44,22.27,22.194
+RJ Barrett,Points,20.0,0.539,0.515,1.0,0.689,21.793,20.589
+Caris LeVert,Points,13.5,0.537,0.529,0.0,0.413,14.594,13.616
+P.J. Washington,Points,13.5,0.535,0.428,0.0,0.328,13.589,13.376
+Terance Mann,Points,8.0,0.535,0.529,1.0,0.551,8.765,7.807
+Jaylen Wells,Points,9.5,0.534,0.533,1.0,0.457,11.005,10.347
+Derrick Jones Jr.,Points,8.5,0.531,0.49,0.0,0.235,10.347,9.567
+Christian Braun,Points,14.5,0.53,0.497,0.0,0.401,15.598,14.895
+Dillon Brooks,Points,13.5,0.53,0.508,0.0,0.753,14.687,13.813
+Mouhamed Gueye,Points,5.5,0.53,0.578,0.0,0.694,6.51,6.416
+Dante Exum,Points,8.5,0.528,0.545,1.0,0.649,10.815,9.021
+Tyler Herro,Points,22.5,0.528,0.468,1.0,0.486,22.917,23.306
+Obi Toppin,Points,8.0,0.526,0.555,1.0,0.19,9.532,8.985
+Isaiah Collier,Points,9.5,0.525,0.539,1.0,0.484,10.033,8.87
+Naz Reid,Points,12.0,0.518,0.512,1.0,0.576,13.657,13.558
+Aaron Nesmith,Points,12.0,0.516,0.442,0.0,0.471,12.231,11.981
+Tari Eason,Points,13.5,0.514,0.534,0.0,0.612,14.083,12.984
+Julius Randle,Points,17.5,0.511,0.493,1.0,0.657,17.494,18.339
+Davion Mitchell,Points,6.5,0.51,0.496,1.0,0.633,6.881,6.796
+Naji Marshall,Points,15.5,0.509,0.457,0.0,0.528,16.137,15.211
+Darius Garland,Points,23.5,0.508,0.561,1.0,0.694,22.806,21.62
+Evan Mobley,Points,21.5,0.504,0.474,1.0,0.53,20.421,20.668
+Austin Reaves,Points,25.5,0.503,0.51,1.0,0.268,22.726,22.61
+Josh Green,Points,5.5,0.503,0.568,1.0,0.383,8.222,6.847
+Malik Monk,Points,17.5,0.502,0.535,1.0,0.644,17.888,17.949
+Bradley Beal,Points,17.5,0.5,0.546,1.0,0.545,18.104,17.964
+Mike Conley,Points,7.5,0.498,0.436,0.0,0.388,7.796,8.418
+Sam Merrill,Points,7.0,0.498,0.482,0.0,0.499,7.165,6.93
+Georges Niang,Points,11.0,0.497,0.505,0.0,0.591,11.42,10.441
+Max Strus,Points,11.0,0.492,0.46,0.0,0.575,10.478,10.446
+Paolo Banchero,Points,23.5,0.492,0.448,0.0,0.518,23.487,23.815
+Ty Jerome,Points,15.5,0.492,0.505,0.0,0.473,14.913,15.102
+Zach Edey,Points,8.5,0.492,0.519,0.0,0.309,9.56,9.018
+Aaron Gordon,Points,13.0,0.49,0.479,0.0,0.666,13.646,13.389
+Wendell Carter Jr.,Points,8.5,0.489,0.475,0.0,0.39,8.812,8.834
+Duncan Robinson,Points,10.5,0.484,0.452,0.0,0.339,10.334,10.7
+Onyeka Okongwu,Points,13.5,0.483,0.511,1.0,0.351,13.709,13.387
+Kevin Durant,Points,26.5,0.482,0.482,1.0,0.696,26.542,26.844
+LaMelo Ball,Points,25.5,0.482,0.51,1.0,0.688,25.875,24.927
+Nick Smith Jr.,Points,7.5,0.482,0.499,0.0,0.224,8.78,8.257
+Julian Champagnie,Points,8.5,0.478,0.466,0.0,0.288,8.955,8.658
+Andrew Wiggins,Points,17.5,0.477,0.475,0.0,0.868,17.476,17.155
+Fred VanVleet,Points,12.5,0.477,0.573,1.0,0.71,15.128,13.874
+Zaccharie Risacher,Points,11.0,0.476,0.485,0.0,0.562,11.299,10.667
+Jordan Clarkson,Points,16.5,0.475,0.51,1.0,0.627,17.751,16.965
+Ivica Zubac,Points,18.5,0.473,0.487,0.0,0.398,18.849,18.516
+Terry Rozier,Points,6.5,0.473,0.514,1.0,0.678,7.981,7.328
+Michael Porter Jr.,Points,17.5,0.471,0.502,1.0,0.619,17.563,17.829
+Jarrett Allen,Points,14.5,0.468,0.428,1.0,0.426,13.988,14.034
+Jabari Smith Jr.,Points,11.5,0.463,0.499,0.0,0.749,12.506,11.975
+Jaren Jackson Jr.,Points,19.5,0.463,0.417,0.0,0.598,19.925,20.768
+Stephon Castle,Points,20.5,0.462,0.418,0.0,0.213,18.281,18.942
+T.J. McConnell,Points,7.5,0.461,0.425,0.0,0.567,8.427,8.371
+Jeremy Sochan,Points,11.5,0.452,0.499,1.0,0.186,12.13,11.629
+Myles Turner,Points,16.5,0.45,0.488,1.0,0.699,16.128,15.93
+Dalton Knecht,Points,17.5,0.448,0.397,0.0,0.37,16.147,16.299
+Nick Richards,Points,10.0,0.445,0.514,0.0,0.103,10.013,10.191
+Keegan Murray,Points,11.5,0.442,0.485,0.0,0.28,12.518,11.904
+Chris Paul,Points,8.5,0.439,0.427,0.0,0.293,8.272,8.277
+Brandon Clarke,Points,8.5,0.437,0.47,0.0,0.24,9.09,8.644
+Mark Williams,Points,16.5,0.435,0.54,1.0,0.602,17.211,15.953
+Donte DiVincenzo,Points,11.5,0.433,0.425,0.0,0.462,10.992,11.923
+DaQuan Jeffries,Points,7.5,0.427,0.439,0.0,0.148,6.549,6.359
+Kris Dunn,Points,6.5,0.427,0.451,1.0,0.367,6.74,6.596
+Devin Booker,Points,26.5,0.426,0.456,1.0,0.46,26.637,26.529
+Ja Morant,Points,23.5,0.42,0.5,1.0,0.56,23.197,21.414
+Jayson Tatum,Points,31.0,0.414,0.385,0.0,0.328,26.081,27.469
+Cole Anthony,Points,12.0,0.413,0.408,0.0,0.326,11.289,11.13
+Domantas Sabonis,Points,15.5,0.409,0.517,0.0,0.658,16.326,16.63
+Anthony Edwards,Points,25.5,0.408,0.453,0.0,0.511,24.893,25.411
+Devin Vassell,Points,18.5,0.406,0.464,0.0,0.446,17.965,18.43
+Jaden McDaniels,Points,13.0,0.406,0.441,0.0,0.485,12.883,13.271
+Dyson Daniels,Points,14.5,0.405,0.435,0.0,0.304,14.498,14.191
+Bogdan Bogdanović,Points,11.5,0.403,0.411,0.0,0.21,11.435,11.477
+Tyrese Haliburton,Points,18.5,0.403,0.438,0.0,0.556,18.153,18.666
+Alperen Sengun,Points,20.5,0.396,0.442,1.0,0.66,20.07,19.541
+Kawhi Leonard,Points,23.5,0.394,0.451,0.0,0.657,22.094,21.33
+Scottie Barnes,Points,18.5,0.393,0.532,1.0,0.569,20.433,19.714
+Dean Wade,Points,4.0,0.388,0.458,0.0,0.42,4.455,4.331
+Isaac Okoro,Points,6.5,0.364,0.428,0.0,0.466,5.877,5.97
+Jamal Murray,Points,20.5,0.363,0.421,0.0,0.281,21.382,20.637
+Rudy Gobert,Points,10.5,0.362,0.449,0.0,0.524,10.161,10.293
+Spencer Dinwiddie,Points,11.5,0.358,0.424,0.0,0.711,12.273,11.522
+Bam Adebayo,Points,18.5,0.345,0.395,0.0,0.393,17.001,17.632
+James Harden,Points,26.5,0.342,0.4,0.0,0.492,25.77,26.134
+Pascal Siakam,Points,20.5,0.332,0.471,0.0,0.629,19.96,20.402
+Andrew Nembhard,Points,10.0,0.33,0.501,0.0,0.383,9.595,9.602
+Max Christie,Points,11.5,0.328,0.419,0.0,0.373,11.663,11.04
+Miles Bridges,Points,33.5,0.319,0.375,1.0,0.294,27.142,25.911
+DeMar DeRozan,Points,21.5,0.313,0.461,0.0,0.385,22.494,22.97
+LaMelo Ball,Points assists,32.5,0.717,0.653,1.0,0.894,33.253,36.997
+Collin Sexton,Points assists,24.5,0.673,0.68,1.0,0.588,25.889,28.511
+James Harden,Points assists,36.0,0.649,0.533,1.0,0.521,35.701,39.745
+Jalen Green,Points assists,25.5,0.639,0.531,1.0,0.502,25.852,31.294
+Luke Kennard,Points assists,12.5,0.623,0.57,0.0,0.369,13.683,15.628
+Tari Eason,Points assists,15.5,0.621,0.506,1.0,0.404,16.184,22.546
+Ja Morant,Points assists,30.5,0.617,0.54,1.0,0.435,30.869,35.382
+Zach LaVine,Points assists,24.5,0.615,0.535,1.0,0.518,27.275,30.883
+Jeremy Sochan,Points assists,14.5,0.611,0.522,1.0,0.206,15.004,22.289
+Bradley Beal,Points assists,21.5,0.61,0.57,1.0,0.792,22.569,25.487
+Stephon Castle,Points assists,24.5,0.607,0.511,1.0,0.346,23.829,29.927
+De'Andre Hunter,Points assists,16.5,0.605,0.537,1.0,0.362,18.078,21.471
+Keldon Johnson,Points assists,18.5,0.601,0.508,1.0,0.548,18.29,22.666
+Bennedict Mathurin,Points assists,14.5,0.595,0.623,1.0,0.453,16.854,21.608
+Desmond Bane,Points assists,24.5,0.593,0.584,1.0,0.421,26.425,30.217
+Caris LeVert,Points assists,16.0,0.592,0.56,1.0,0.399,16.581,20.476
+Georges Niang,Points assists,12.5,0.591,0.536,0.0,0.381,12.884,17.66
+Julian Champagnie,Points assists,9.5,0.591,0.532,0.0,0.241,10.68,12.312
+Devin Vassell,Points assists,22.5,0.587,0.52,0.0,0.379,21.258,27.664
+Miles Bridges,Points assists,29.5,0.587,0.515,0.0,0.641,29.844,34.459
+Austin Reaves,Points assists,32.5,0.581,0.595,1.0,0.543,31.873,36.281
+Franz Wagner,Points assists,26.5,0.574,0.509,1.0,0.523,27.76,33.446
+Darius Garland,Points assists,31.5,0.568,0.561,1.0,0.525,33.37,33.634
+Kevin Durant,Points assists,30.5,0.567,0.44,1.0,0.655,31.923,37.672
+P.J. Washington,Points assists,15.5,0.566,0.384,0.0,0.132,14.631,22.801
+Aaron Gordon,Points assists,15.5,0.561,0.483,0.0,0.499,15.901,20.888
+Ty Jerome,Points assists,19.5,0.561,0.516,1.0,0.152,19.556,22.029
+Chris Paul,Points assists,16.5,0.56,0.479,0.0,0.464,16.315,19.989
+Scottie Barnes,Points assists,23.5,0.56,0.592,1.0,0.794,26.209,31.631
+Klay Thompson,Points assists,18.5,0.558,0.504,0.0,0.535,17.79,22.386
+Brandon Clarke,Points assists,9.5,0.556,0.569,0.0,0.225,9.861,15.828
+Malik Monk,Points assists,22.5,0.556,0.585,1.0,0.851,24.249,27.843
+Mark Williams,Points assists,18.5,0.555,0.51,1.0,0.712,19.023,30.138
+Devin Booker,Points assists,33.5,0.554,0.471,1.0,0.625,34.575,38.401
+Josh Green,Points assists,7.5,0.552,0.569,1.0,0.233,9.889,12.578
+Dillon Brooks,Points assists,15.5,0.55,0.505,0.0,0.641,16.829,20.422
+Lauri Markkanen,Points assists,20.5,0.55,0.599,1.0,0.492,21.344,27.488
+Fred VanVleet,Points assists,17.5,0.548,0.537,1.0,0.442,19.2,22.652
+Michael Porter Jr.,Points assists,19.5,0.545,0.548,1.0,0.411,19.12,27.997
+Tyler Herro,Points assists,29.0,0.544,0.471,1.0,0.42,29.653,33.178
+Kel'el Ware,Points assists,9.0,0.542,0.558,1.0,0.513,9.55,15.394
+Donte DiVincenzo,Points assists,15.0,0.536,0.493,0.0,0.433,14.629,20.467
+Max Strus,Points assists,14.5,0.535,0.488,0.0,0.443,15.005,17.924
+Keegan Murray,Points assists,13.5,0.534,0.505,1.0,0.223,14.179,20.28
+Jaden McDaniels,Points assists,15.5,0.531,0.46,0.0,0.349,15.068,22.86
+Harrison Barnes,Points assists,14.5,0.529,0.499,0.0,0.502,14.94,19.075
+Terry Rozier,Points assists,8.0,0.528,0.517,1.0,0.252,9.874,11.311
+Domantas Sabonis,Points assists,21.5,0.527,0.469,1.0,0.779,22.224,31.264
+Trae Young,Points assists,36.5,0.527,0.603,1.0,0.669,37.784,39.677
+Dyson Daniels,Points assists,18.5,0.523,0.482,1.0,0.305,19.057,24.726
+RJ Barrett,Points assists,25.0,0.523,0.576,1.0,0.814,27.869,31.417
+Jaylen Wells,Points assists,10.5,0.521,0.575,1.0,0.478,11.956,15.433
+Christian Braun,Points assists,18.0,0.518,0.472,1.0,0.249,17.944,23.53
+Naji Marshall,Points assists,18.5,0.516,0.492,0.0,0.789,19.344,24.761
+Anthony Edwards,Points assists,29.5,0.514,0.458,0.0,0.52,29.54,34.502
+Andrew Wiggins,Points assists,20.5,0.513,0.481,0.0,0.432,19.9,25.871
+Ivica Zubac,Points assists,21.5,0.513,0.528,0.0,0.532,21.979,34.297
+Jarrett Allen,Points assists,16.5,0.512,0.45,1.0,0.413,15.571,27.219
+Spencer Dinwiddie,Points assists,15.5,0.512,0.468,0.0,0.604,15.629,17.504
+Nick Richards,Points assists,10.5,0.51,0.477,0.0,0.091,10.665,18.317
+Jaren Jackson Jr.,Points assists,21.5,0.507,0.451,0.0,0.634,21.862,28.234
+Kawhi Leonard,Points assists,27.5,0.507,0.497,1.0,0.546,27.938,33.856
+Wendell Carter Jr.,Points assists,10.5,0.507,0.504,0.0,0.282,10.867,18.312
+Onyeka Okongwu,Points assists,16.5,0.506,0.468,1.0,0.349,16.304,25.662
+Alperen Sengun,Points assists,26.5,0.505,0.442,1.0,0.708,25.641,36.084
+Naz Reid,Points assists,14.5,0.504,0.516,0.0,0.544,15.046,21.281
+Paolo Banchero,Points assists,27.5,0.499,0.43,0.0,0.281,27.35,36.138
+Max Christie,Points assists,13.5,0.498,0.493,0.0,0.291,13.816,17.437
+Duncan Robinson,Points assists,12.5,0.496,0.44,0.0,0.248,12.6,16.178
+Isaiah Collier,Points assists,17.5,0.492,0.529,1.0,0.523,18.523,20.305
+Jabari Smith Jr.,Points assists,13.5,0.492,0.48,0.0,0.181,13.613,20.534
+Bam Adebayo,Points assists,22.5,0.487,0.441,0.0,0.394,21.469,33.063
+Julius Randle,Points assists,22.5,0.486,0.504,1.0,0.439,22.567,30.493
+DaQuan Jeffries,Points assists,9.5,0.479,0.487,0.0,0.015,8.326,12.319
+Jayson Tatum,Points assists,38.0,0.476,0.474,0.0,0.563,36.416,46.988
+Myles Turner,Points assists,18.0,0.474,0.488,1.0,0.601,17.183,23.305
+Davion Mitchell,Points assists,10.5,0.473,0.478,0.0,0.222,10.452,12.834
+Nikola Jokic,Points assists,37.0,0.465,0.519,1.0,0.6,39.348,45.519
+Cole Anthony,Points assists,15.5,0.463,0.453,0.0,0.213,15.636,19.714
+Isaac Okoro,Points assists,8.5,0.462,0.458,0.0,0.086,8.091,11.261
+Bogdan Bogdanović,Points assists,14.5,0.461,0.464,1.0,0.149,14.226,18.114
+Mike Conley,Points assists,11.5,0.458,0.452,0.0,0.357,10.983,14.957
+DeMar DeRozan,Points assists,26.5,0.436,0.473,0.0,0.355,26.755,31.274
+Jamal Murray,Points assists,26.5,0.43,0.451,0.0,0.523,27.227,30.338
+Aaron Nesmith,Points assists,13.5,0.425,0.471,0.0,0.032,12.901,18.15
+Evan Mobley,Points assists,25.5,0.42,0.47,1.0,0.159,25.299,34.013
+Immanuel Quickley,Points assists,23.5,0.414,0.568,1.0,0.773,26.289,28.542
+Tyrese Haliburton,Points assists,28.0,0.405,0.389,0.0,0.462,26.224,30.292
+Dalton Knecht,Points assists,18.5,0.403,0.489,0.0,0.145,17.78,24.195
+Pascal Siakam,Points assists,23.0,0.399,0.494,1.0,0.674,23.689,31.507
+T.J. McConnell,Points assists,12.5,0.393,0.434,0.0,0.493,12.183,15.477
+Andrew Nembhard,Points assists,14.5,0.365,0.423,0.0,0.152,13.919,18.211
+Thomas Bryant,Points assists,8.5,0.338,0.38,0.0,0.072,7.272,11.211
+Austin Reaves,Points assists rebounds,37.5,0.777,0.604,1.0,0.326,35.986,36.281
+Walker Kessler,Points assists rebounds,27.5,0.742,0.632,1.0,0.531,29.578,28.624
+Collin Sexton,Points assists rebounds,27.5,0.687,0.689,1.0,0.522,30.149,28.511
+LaMelo Ball,Points assists rebounds,38.5,0.686,0.633,1.0,0.678,38.95,36.997
+Dillon Brooks,Points assists rebounds,19.5,0.668,0.602,0.0,0.62,21.216,20.422
+Jalen Green,Points assists rebounds,30.5,0.665,0.623,1.0,0.536,31.278,31.294
+Keldon Johnson,Points assists rebounds,23.0,0.665,0.534,1.0,0.413,23.257,22.666
+Domantas Sabonis,Points assists rebounds,29.5,0.646,0.548,0.0,0.744,32.712,31.264
+Caris LeVert,Points assists rebounds,19.5,0.645,0.579,0.0,0.435,21.11,20.476
+Mark Williams,Points assists rebounds,29.5,0.645,0.616,1.0,0.784,30.639,30.138
+RJ Barrett,Points assists rebounds,31.0,0.637,0.568,1.0,0.703,33.518,31.417
+Amir Coffey,Points assists rebounds,10.5,0.633,0.598,1.0,0.384,12.186,11.177
+Josh Green,Points assists rebounds,11.5,0.62,0.595,1.0,0.137,13.63,12.578
+De'Andre Hunter,Points assists rebounds,20.5,0.618,0.592,1.0,0.518,22.688,21.471
+Jaylen Wells,Points assists rebounds,14.5,0.617,0.603,1.0,0.597,16.303,15.433
+Lauri Markkanen,Points assists rebounds,26.5,0.617,0.651,1.0,0.653,27.948,27.488
+Zach LaVine,Points assists rebounds,29.5,0.616,0.559,1.0,0.536,30.275,30.883
+Darius Garland,Points assists rebounds,35.0,0.614,0.611,1.0,0.733,34.094,33.634
+James Harden,Points assists rebounds,41.5,0.613,0.512,0.0,0.536,40.711,39.745
+Devin Booker,Points assists rebounds,38.0,0.612,0.573,1.0,0.473,38.962,38.401
+Aaron Nesmith,Points assists rebounds,17.5,0.607,0.521,1.0,0.244,17.534,18.15
+Georges Niang,Points assists rebounds,17.5,0.607,0.552,1.0,0.593,18.113,17.66
+Dalton Knecht,Points assists rebounds,24.5,0.606,0.508,0.0,0.186,22.598,24.195
+Bradley Beal,Points assists rebounds,24.5,0.602,0.6,1.0,0.589,26.729,25.487
+Immanuel Quickley,Points assists rebounds,27.5,0.602,0.583,1.0,0.588,29.655,28.542
+Trae Young,Points assists rebounds,39.5,0.602,0.57,1.0,0.514,41.236,39.677
+Dyson Daniels,Points assists rebounds,24.0,0.597,0.522,1.0,0.322,24.926,24.726
+Jabari Smith Jr.,Points assists rebounds,20.5,0.592,0.552,1.0,0.521,21.017,20.534
+Ivica Zubac,Points assists rebounds,34.5,0.591,0.536,0.0,0.44,33.803,34.297
+Michael Porter Jr.,Points assists rebounds,27.0,0.591,0.597,1.0,0.605,27.882,27.997
+Brandon Clarke,Points assists rebounds,15.5,0.586,0.558,0.0,0.08,16.664,15.828
+Alperen Sengun,Points assists rebounds,36.5,0.585,0.564,1.0,0.64,35.327,36.084
+Malik Monk,Points assists rebounds,27.0,0.585,0.593,1.0,0.612,27.897,27.843
+Zaccharie Risacher,Points assists rebounds,16.0,0.584,0.564,1.0,0.38,16.979,16.445
+Stephon Castle,Points assists rebounds,29.5,0.579,0.544,0.0,0.391,29.046,29.927
+Tari Eason,Points assists rebounds,23.0,0.574,0.574,1.0,0.573,23.522,22.546
+Kawhi Leonard,Points assists rebounds,33.5,0.568,0.546,0.0,0.708,33.333,33.856
+Desmond Bane,Points assists rebounds,31.5,0.567,0.565,0.0,0.626,31.698,30.217
+Harrison Barnes,Points assists rebounds,18.5,0.567,0.505,0.0,0.492,20.241,19.075
+Kevin Durant,Points assists rebounds,37.5,0.566,0.542,1.0,0.623,37.692,37.672
+Evan Mobley,Points assists rebounds,35.0,0.564,0.555,0.0,0.586,33.445,34.013
+Sam Merrill,Points assists rebounds,11.5,0.564,0.485,0.0,0.556,12.32,12.398
+Keegan Murray,Points assists rebounds,19.5,0.563,0.543,1.0,0.377,20.716,20.28
+Kel'el Ware,Points assists rebounds,14.5,0.563,0.548,1.0,0.617,16.157,15.394
+Obi Toppin,Points assists rebounds,11.5,0.563,0.563,1.0,0.172,14.122,13.022
+Isaiah Collier,Points assists rebounds,20.5,0.562,0.583,1.0,0.293,21.158,20.305
+Zach Edey,Points assists rebounds,17.5,0.56,0.582,0.0,0.486,18.002,17.93
+Derrick Jones Jr.,Points assists rebounds,12.5,0.558,0.519,0.0,0.511,14.36,13.51
+Luke Kennard,Points assists rebounds,15.5,0.556,0.585,1.0,0.412,16.948,15.628
+Nick Richards,Points assists rebounds,18.5,0.554,0.537,0.0,0.316,18.749,18.317
+Tyrese Haliburton,Points assists rebounds,30.5,0.552,0.477,0.0,0.418,30.104,30.292
+Franz Wagner,Points assists rebounds,32.5,0.55,0.495,1.0,0.539,33.484,33.446
+Kris Dunn,Points assists rebounds,13.5,0.549,0.522,1.0,0.534,14.321,13.159
+Mouhamed Gueye,Points assists rebounds,10.0,0.549,0.514,0.0,0.219,10.683,10.129
+Jeremy Sochan,Points assists rebounds,21.5,0.547,0.548,1.0,0.315,23.088,22.289
+Dante Exum,Points assists rebounds,14.5,0.542,0.579,1.0,0.662,16.788,14.895
+Derrick White,Points assists rebounds,32.5,0.542,0.553,1.0,0.421,31.564,32.89
+P.J. Washington,Points assists rebounds,22.0,0.539,0.43,0.0,0.477,21.414,22.801
+Max Christie,Points assists rebounds,17.5,0.537,0.462,0.0,0.266,16.782,17.437
+Terance Mann,Points assists rebounds,13.5,0.527,0.53,1.0,0.544,14.218,13.6
+DaQuan Jeffries,Points assists rebounds,13.5,0.526,0.486,1.0,0.039,12.042,12.319
+Miles Bridges,Points assists rebounds,34.5,0.526,0.553,0.0,0.538,35.355,34.459
+Aaron Gordon,Points assists rebounds,20.5,0.524,0.596,1.0,0.611,21.442,20.888
+Christian Braun,Points assists rebounds,22.5,0.524,0.576,0.0,0.501,23.249,23.53
+Davion Mitchell,Points assists rebounds,12.5,0.524,0.508,0.0,0.445,12.097,12.834
+Fred VanVleet,Points assists rebounds,21.5,0.523,0.6,1.0,0.614,24.868,22.652
+Julius Randle,Points assists rebounds,29.5,0.522,0.51,0.0,0.353,29.286,30.493
+Bam Adebayo,Points assists rebounds,32.5,0.518,0.468,0.0,0.468,30.833,33.063
+Ty Jerome,Points assists rebounds,22.5,0.517,0.546,0.0,0.121,23.393,22.029
+Jamal Murray,Points assists rebounds,30.0,0.516,0.485,1.0,0.367,29.731,30.338
+Andrew Wiggins,Points assists rebounds,25.5,0.515,0.528,0.0,0.425,25.294,25.871
+Jarrett Allen,Points assists rebounds,27.5,0.515,0.539,1.0,0.431,26.455,27.219
+Devin Vassell,Points assists rebounds,27.0,0.514,0.532,1.0,0.468,26.188,27.664
+Tyler Herro,Points assists rebounds,33.5,0.513,0.535,1.0,0.415,33.884,33.178
+Isaac Okoro,Points assists rebounds,11.5,0.511,0.511,1.0,0.197,11.01,11.261
+Julian Champagnie,Points assists rebounds,12.5,0.51,0.501,0.0,0.235,13.462,12.312
+Ja Morant,Points assists rebounds,35.5,0.509,0.553,1.0,0.574,35.556,35.382
+Duncan Robinson,Points assists rebounds,15.5,0.508,0.481,1.0,0.453,15.418,16.178
+Klay Thompson,Points assists rebounds,22.5,0.506,0.479,0.0,0.342,21.642,22.386
+Thomas Bryant,Points assists rebounds,12.5,0.506,0.43,0.0,0.018,11.374,11.211
+Naz Reid,Points assists rebounds,19.5,0.504,0.526,1.0,0.594,21.527,21.281
+Nikola Jokic,Points assists rebounds,44.5,0.502,0.535,1.0,0.62,48.039,45.519
+Bogdan Bogdanović,Points assists rebounds,17.5,0.499,0.469,0.0,0.162,17.109,18.114
+Jaden McDaniels,Points assists rebounds,21.5,0.499,0.527,0.0,0.486,22.044,22.86
+Jaren Jackson Jr.,Points assists rebounds,26.5,0.499,0.488,1.0,0.888,27.686,28.234
+Bennedict Mathurin,Points assists rebounds,19.5,0.493,0.62,1.0,0.664,23.458,21.608
+Donte DiVincenzo,Points assists rebounds,19.5,0.493,0.55,0.0,0.477,19.774,20.467
+Anthony Edwards,Points assists rebounds,34.5,0.487,0.513,0.0,0.565,34.795,34.502
+Onyeka Okongwu,Points assists rebounds,25.5,0.486,0.522,1.0,0.269,24.779,25.662
+Pascal Siakam,Points assists rebounds,30.5,0.481,0.521,1.0,0.707,31.777,31.507
+Chris Paul,Points assists rebounds,20.0,0.48,0.42,1.0,0.299,19.086,19.989
+Terry Rozier,Points assists rebounds,10.5,0.473,0.552,1.0,0.531,12.105,11.311
+Andrew Nembhard,Points assists rebounds,18.0,0.469,0.421,0.0,0.424,17.035,18.211
+Wendell Carter Jr.,Points assists rebounds,18.5,0.464,0.477,0.0,0.333,18.072,18.312
+Spencer Dinwiddie,Points assists rebounds,17.5,0.456,0.493,0.0,0.269,17.837,17.504
+Jayson Tatum,Points assists rebounds,47.0,0.451,0.476,0.0,0.445,45.397,46.988
+Myles Turner,Points assists rebounds,23.5,0.436,0.506,1.0,0.847,24.244,23.305
+Cole Anthony,Points assists rebounds,19.5,0.432,0.439,0.0,0.236,18.431,19.714
+Mike Conley,Points assists rebounds,14.5,0.424,0.466,0.0,0.307,14.141,14.957
+T.J. McConnell,Points assists rebounds,14.5,0.423,0.483,0.0,0.197,14.759,15.477
+Scottie Barnes,Points assists rebounds,30.5,0.415,0.512,1.0,0.566,32.978,31.631
+Paolo Banchero,Points assists rebounds,35.5,0.403,0.427,0.0,0.402,33.964,36.138
+Max Strus,Points assists rebounds,18.5,0.4,0.486,0.0,0.569,18.18,17.924
+Kentavious Caldwell-Pope,Points assists rebounds,11.5,0.365,0.515,0.0,0.37,11.942,12.292
+DeMar DeRozan,Points assists rebounds,30.5,0.349,0.462,1.0,0.486,30.992,31.274
+Naji Marshall,Points assists rebounds,25.0,0.345,0.502,0.0,0.512,24.982,24.761
+Dean Wade,Points assists rebounds,9.0,0.331,0.497,0.0,0.206,9.355,8.409
+James Harden,Points rebounds,32.0,0.656,0.539,0.0,0.438,31.413,31.692
+Mark Williams,Points rebounds,27.5,0.655,0.598,1.0,0.775,28.485,27.97
+Luke Kennard,Points rebounds,12.5,0.651,0.596,1.0,0.399,14.3,12.817
+Lauri Markkanen,Points rebounds,24.5,0.614,0.59,1.0,0.665,26.445,24.233
+Amir Coffey,Points rebounds,10.0,0.611,0.605,1.0,0.23,11.738,10.264
+Ja Morant,Points rebounds,27.5,0.607,0.471,0.0,0.496,26.232,26.479
+Fred VanVleet,Points rebounds,15.5,0.604,0.577,1.0,0.649,18.37,17.346
+Isaiah Collier,Points rebounds,12.5,0.601,0.558,0.0,0.399,13.373,12.488
+Brandon Clarke,Points rebounds,15.0,0.598,0.584,1.0,0.621,16.097,15.118
+Jarrett Allen,Points rebounds,25.5,0.598,0.504,1.0,0.683,24.584,26.204
+Ivica Zubac,Points rebounds,31.5,0.595,0.518,1.0,0.549,30.825,30.913
+Jaylen Wells,Points rebounds,13.0,0.595,0.58,1.0,0.319,14.837,13.512
+Kel'el Ware,Points rebounds,14.5,0.593,0.536,1.0,0.367,15.51,14.655
+Zach Edey,Points rebounds,16.5,0.592,0.55,0.0,0.603,17.238,16.83
+Zach LaVine,Points rebounds,25.5,0.592,0.504,0.0,0.502,26.321,27.102
+Ty Jerome,Points rebounds,18.0,0.591,0.535,0.0,0.746,17.543,17.091
+Kawhi Leonard,Points rebounds,30.5,0.583,0.495,0.0,0.709,29.28,30.064
+Walker Kessler,Points rebounds,25.5,0.583,0.633,1.0,0.601,28.364,26.437
+Bradley Beal,Points rebounds,20.5,0.58,0.572,1.0,0.623,22.335,21.55
+Dante Exum,Points rebounds,11.5,0.58,0.526,1.0,0.585,13.607,11.914
+Dalton Knecht,Points rebounds,22.5,0.579,0.404,0.0,0.463,20.408,20.895
+Sam Merrill,Points rebounds,9.5,0.574,0.479,0.0,0.522,9.897,9.731
+Austin Reaves,Points rebounds,31.5,0.573,0.518,1.0,0.355,30.508,30.594
+Darius Garland,Points rebounds,26.5,0.572,0.568,1.0,0.696,27.231,25.897
+Josh Green,Points rebounds,9.5,0.572,0.609,1.0,0.258,11.789,10.073
+Collin Sexton,Points rebounds,22.5,0.571,0.639,1.0,0.528,24.644,22.554
+Alperen Sengun,Points rebounds,31.5,0.568,0.518,1.0,0.704,29.94,30.369
+LaMelo Ball,Points rebounds,31.5,0.563,0.604,0.0,0.756,31.944,30.805
+Obi Toppin,Points rebounds,11.0,0.56,0.52,1.0,0.359,12.493,11.816
+Anthony Edwards,Points rebounds,30.0,0.554,0.506,1.0,0.601,30.572,30.399
+Aaron Gordon,Points rebounds,18.0,0.551,0.481,0.0,0.21,18.257,17.701
+Stephon Castle,Points rebounds,25.5,0.55,0.515,0.0,0.231,24.245,25.564
+De'Andre Hunter,Points rebounds,19.5,0.548,0.522,1.0,0.601,21.324,19.338
+Jusuf Nurkić,Points rebounds,9.5,0.548,0.619,1.0,0.581,12.445,10.344
+Andrew Wiggins,Points rebounds,22.5,0.547,0.503,0.0,0.703,22.421,21.714
+Tyler Herro,Points rebounds,28.0,0.547,0.474,1.0,0.449,27.624,27.361
+Dillon Brooks,Points rebounds,17.5,0.545,0.565,1.0,0.644,18.809,17.697
+Miles Bridges,Points rebounds,34.0,0.545,0.493,1.0,0.66,34.81,33.463
+Michael Porter Jr.,Points rebounds,24.5,0.543,0.529,1.0,0.569,24.652,24.118
+Malik Monk,Points rebounds,20.5,0.542,0.545,1.0,0.69,21.317,21.535
+Isaac Okoro,Points rebounds,9.5,0.538,0.538,1.0,0.482,9.304,9.31
+Trae Young,Points rebounds,28.5,0.535,0.583,1.0,0.632,31.285,28.761
+Evan Mobley,Points rebounds,30.5,0.534,0.523,1.0,0.635,29.532,30.033
+Nikola Jokic,Points rebounds,39.5,0.534,0.587,1.0,0.667,41.299,39.876
+Domantas Sabonis,Points rebounds,27.5,0.533,0.535,1.0,0.89,29.166,28.697
+Immanuel Quickley,Points rebounds,22.0,0.533,0.517,0.0,0.784,23.006,21.534
+RJ Barrett,Points rebounds,25.5,0.531,0.506,1.0,0.723,27.666,26.626
+Jalen Green,Points rebounds,26.5,0.529,0.572,1.0,0.655,26.639,26.477
+Caris LeVert,Points rebounds,16.5,0.528,0.558,0.0,0.518,17.914,17.031
+Kris Dunn,Points rebounds,10.0,0.528,0.492,1.0,0.709,10.535,9.395
+Bennedict Mathurin,Points rebounds,17.5,0.522,0.584,1.0,0.755,20.151,18.776
+Franz Wagner,Points rebounds,28.5,0.519,0.502,1.0,0.623,29.783,29.254
+Terance Mann,Points rebounds,11.5,0.516,0.518,0.0,0.674,12.329,11.445
+Terry Rozier,Points rebounds,8.5,0.515,0.473,1.0,0.477,10.04,9.655
+Harrison Barnes,Points rebounds,16.5,0.514,0.527,1.0,0.508,17.358,16.907
+Onyeka Okongwu,Points rebounds,23.5,0.512,0.508,0.0,0.321,22.521,23.641
+Zaccharie Risacher,Points rebounds,15.0,0.512,0.522,0.0,0.438,15.638,15.236
+Desmond Bane,Points rebounds,25.5,0.51,0.511,1.0,0.511,25.911,25.549
+Kevin Durant,Points rebounds,32.5,0.51,0.53,0.0,0.654,32.81,32.596
+Donte DiVincenzo,Points rebounds,15.5,0.508,0.496,0.0,0.546,15.588,16.014
+DaQuan Jeffries,Points rebounds,11.5,0.507,0.447,0.0,0.022,10.527,10.762
+Naji Marshall,Points rebounds,22.5,0.506,0.469,0.0,0.678,21.759,21.596
+Julius Randle,Points rebounds,24.5,0.502,0.493,0.0,0.575,24.242,24.33
+Georges Niang,Points rebounds,15.5,0.501,0.529,1.0,0.684,15.996,15.39
+Naz Reid,Points rebounds,17.5,0.501,0.53,1.0,0.649,19.231,18.271
+Keegan Murray,Points rebounds,17.5,0.5,0.519,1.0,0.361,17.92,17.65
+Davion Mitchell,Points rebounds,8.5,0.496,0.429,0.0,0.488,8.81,9.281
+Devin Booker,Points rebounds,30.5,0.495,0.49,0.0,0.459,31.533,30.29
+Dyson Daniels,Points rebounds,19.5,0.492,0.462,1.0,0.346,19.944,19.787
+Christian Braun,Points rebounds,20.0,0.49,0.501,0.0,0.32,20.303,19.894
+Devin Vassell,Points rebounds,23.5,0.489,0.489,0.0,0.382,23.442,23.77
+Jamal Murray,Points rebounds,24.5,0.486,0.419,0.0,0.138,24.94,25.406
+Derrick Jones Jr.,Points rebounds,11.5,0.484,0.507,0.0,0.66,13.22,12.544
+Nick Richards,Points rebounds,18.5,0.484,0.48,0.0,0.403,18.642,18.313
+Duncan Robinson,Points rebounds,12.5,0.483,0.476,0.0,0.492,12.953,13.644
+Jaden McDaniels,Points rebounds,19.0,0.48,0.512,0.0,0.683,19.037,19.614
+Jabari Smith Jr.,Points rebounds,19.0,0.474,0.556,0.0,0.736,19.583,18.888
+Keldon Johnson,Points rebounds,21.5,0.461,0.524,1.0,0.232,21.851,21.251
+Paolo Banchero,Points rebounds,30.5,0.461,0.412,0.0,0.399,30.038,30.265
+Rudy Gobert,Points rebounds,20.5,0.46,0.479,1.0,0.536,19.918,20.84
+Jayson Tatum,Points rebounds,40.0,0.456,0.488,0.0,0.467,36.057,36.955
+Tari Eason,Points rebounds,21.5,0.451,0.571,1.0,0.625,21.733,21.356
+Myles Turner,Points rebounds,22.5,0.45,0.526,1.0,0.718,22.766,22.422
+Mike Conley,Points rebounds,9.5,0.448,0.432,0.0,0.336,9.895,10.257
+Spencer Dinwiddie,Points rebounds,14.0,0.448,0.477,0.0,0.647,14.749,14.064
+Dean Wade,Points rebounds,7.5,0.445,0.362,0.0,0.332,7.724,7.017
+Jaren Jackson Jr.,Points rebounds,24.5,0.442,0.454,0.0,0.864,24.406,26.301
+Bogdan Bogdanović,Points rebounds,14.5,0.435,0.45,0.0,0.163,14.295,14.174
+DeMar DeRozan,Points rebounds,26.0,0.431,0.498,0.0,0.486,26.561,26.953
+Scottie Barnes,Points rebounds,26.0,0.429,0.527,1.0,0.639,27.79,26.795
+Klay Thompson,Points rebounds,19.5,0.415,0.522,0.0,0.751,19.763,19.073
+Max Strus,Points rebounds,15.5,0.411,0.44,0.0,0.711,14.845,14.958
+Tyrese Haliburton,Points rebounds,21.5,0.41,0.473,0.0,0.47,21.76,21.57
+Aaron Nesmith,Points rebounds,16.5,0.408,0.482,0.0,0.388,16.818,17.031
+Chris Paul,Points rebounds,11.5,0.397,0.451,0.0,0.267,10.643,10.711
+Julian Champagnie,Points rebounds,11.5,0.397,0.431,0.0,0.26,12.029,11.326
+Max Christie,Points rebounds,15.5,0.397,0.44,0.0,0.326,14.904,14.855
+Kentavious Caldwell-Pope,Points rebounds,11.0,0.39,0.411,0.0,0.343,10.895,10.399
+Wendell Carter Jr.,Points rebounds,16.5,0.388,0.45,0.0,0.3,16.786,16.674
+P.J. Washington,Points rebounds,20.5,0.385,0.466,0.0,0.436,19.781,21.134
+Bam Adebayo,Points rebounds,28.5,0.371,0.423,0.0,0.545,26.573,27.336
+T.J. McConnell,Points rebounds,10.5,0.37,0.421,0.0,0.479,10.857,10.95
+Pascal Siakam,Points rebounds,28.0,0.345,0.529,1.0,0.736,28.022,28.298
+Thomas Bryant,Points rebounds,11.5,0.333,0.375,0.0,0.393,10.281,10.144
+Cole Anthony,Points rebounds,16.5,0.323,0.386,0.0,0.266,15.436,16.425
+Andrew Nembhard,Points rebounds,12.5,0.296,0.397,0.0,0.201,12.185,13.287
+Collin Sexton,Rebounds,1.5,0.787,0.795,1.0,0.598,2.9,2.9
+Tyler Herro,Rebounds,3.5,0.721,0.69,1.0,0.634,4.985,5.017
+Kris Dunn,Rebounds,2.5,0.706,0.649,1.0,0.761,3.69,3.646
+Domantas Sabonis,Rebounds,11.5,0.686,0.599,1.0,0.887,12.772,13.116
+Bennedict Mathurin,Rebounds,4.0,0.678,0.621,1.0,0.774,4.893,4.569
+Desmond Bane,Rebounds,6.0,0.65,0.598,1.0,0.632,6.994,6.483
+Mark Williams,Rebounds,11.0,0.648,0.574,1.0,0.849,11.235,10.504
+Jayson Tatum,Rebounds,8.5,0.643,0.549,1.0,0.68,9.18,8.722
+Jusuf Nurkić,Rebounds,4.5,0.64,0.639,1.0,0.828,6.715,6.028
+Austin Reaves,Rebounds,3.5,0.632,0.585,1.0,0.104,4.483,4.311
+Zach Edey,Rebounds,8.0,0.632,0.579,1.0,0.537,8.481,8.122
+Miles Bridges,Rebounds,8.0,0.631,0.59,1.0,0.704,8.446,8.215
+Klay Thompson,Rebounds,2.5,0.629,0.646,1.0,0.653,3.638,3.645
+Mouhamed Gueye,Rebounds,2.5,0.622,0.639,1.0,0.44,3.543,3.202
+Walker Kessler,Rebounds,13.0,0.618,0.624,0.0,0.661,13.135,12.626
+Lauri Markkanen,Rebounds,5.5,0.606,0.592,1.0,0.596,6.067,5.913
+Devin Booker,Rebounds,4.0,0.605,0.577,1.0,0.415,4.232,4.199
+Jabari Smith Jr.,Rebounds,6.5,0.603,0.544,1.0,0.698,6.904,6.763
+Dyson Daniels,Rebounds,5.5,0.6,0.55,1.0,0.625,5.78,5.512
+Harrison Barnes,Rebounds,2.5,0.595,0.688,1.0,0.51,3.908,3.789
+Rudy Gobert,Rebounds,10.0,0.591,0.58,0.0,0.74,10.502,10.775
+Fred VanVleet,Rebounds,3.5,0.588,0.568,1.0,0.622,4.024,3.817
+Bradley Beal,Rebounds,2.5,0.587,0.632,1.0,0.476,3.385,3.213
+Darius Garland,Rebounds,2.5,0.584,0.566,1.0,0.672,2.824,2.667
+Obi Toppin,Rebounds,2.5,0.579,0.663,1.0,0.056,3.572,3.791
+Tyrese Haliburton,Rebounds,2.5,0.579,0.631,1.0,0.537,3.404,3.292
+Zach LaVine,Rebounds,3.5,0.574,0.572,1.0,0.474,4.252,4.439
+Keegan Murray,Rebounds,5.5,0.571,0.55,1.0,0.44,6.006,6.221
+Georges Niang,Rebounds,4.0,0.57,0.597,1.0,0.302,4.216,3.863
+Anthony Edwards,Rebounds,5.0,0.567,0.611,0.0,0.517,5.72,5.699
+Tari Eason,Rebounds,7.5,0.563,0.546,1.0,0.588,7.418,7.158
+Onyeka Okongwu,Rebounds,9.5,0.562,0.491,1.0,0.42,9.029,8.98
+RJ Barrett,Rebounds,6.0,0.561,0.527,0.0,0.576,6.405,6.407
+Myles Turner,Rebounds,6.0,0.557,0.51,0.0,0.637,6.49,6.544
+Christian Braun,Rebounds,4.5,0.55,0.582,1.0,0.546,5.08,4.991
+P.J. Washington,Rebounds,6.5,0.546,0.493,0.0,0.508,6.923,7.7
+Kevin Durant,Rebounds,6.0,0.544,0.568,0.0,0.411,6.396,6.305
+Alperen Sengun,Rebounds,10.5,0.542,0.576,1.0,0.68,10.554,10.724
+Dalton Knecht,Rebounds,4.5,0.535,0.397,0.0,0.277,4.14,4.017
+Brandon Clarke,Rebounds,5.5,0.533,0.509,0.0,0.293,5.711,5.449
+Immanuel Quickley,Rebounds,3.5,0.533,0.518,0.0,0.604,3.836,3.463
+Nikola Jokic,Rebounds,12.5,0.529,0.508,1.0,0.678,11.845,12.688
+Zaccharie Risacher,Rebounds,3.5,0.526,0.537,1.0,0.498,3.949,3.767
+Julius Randle,Rebounds,6.5,0.525,0.482,0.0,0.481,6.923,6.923
+Aaron Gordon,Rebounds,4.5,0.522,0.525,0.0,0.714,4.884,4.878
+Bam Adebayo,Rebounds,10.0,0.518,0.493,0.0,0.693,9.863,9.979
+Andrew Wiggins,Rebounds,4.5,0.514,0.509,1.0,0.351,4.702,4.533
+Kel'el Ware,Rebounds,7.0,0.512,0.511,0.0,0.281,7.196,7.553
+De'Andre Hunter,Rebounds,4.0,0.507,0.559,0.0,0.048,4.087,4.176
+Kawhi Leonard,Rebounds,6.0,0.507,0.434,0.0,0.074,5.44,5.966
+Pascal Siakam,Rebounds,7.0,0.503,0.5,0.0,0.808,7.065,7.393
+Jarrett Allen,Rebounds,10.5,0.497,0.477,0.0,0.53,9.537,9.896
+James Harden,Rebounds,5.5,0.494,0.526,1.0,0.555,5.641,5.545
+Keldon Johnson,Rebounds,5.0,0.484,0.462,0.0,0.36,5.204,4.954
+Davion Mitchell,Rebounds,1.5,0.481,0.477,1.0,0.506,1.901,2.034
+Jaden McDaniels,Rebounds,5.5,0.48,0.524,0.0,0.553,6.06,5.706
+Scottie Barnes,Rebounds,7.0,0.478,0.53,0.0,0.494,7.877,7.72
+Franz Wagner,Rebounds,5.5,0.477,0.465,0.0,0.316,5.352,5.53
+LaMelo Ball,Rebounds,5.5,0.475,0.454,0.0,0.465,5.432,5.458
+Michael Porter Jr.,Rebounds,7.0,0.472,0.519,0.0,0.381,7.106,7.151
+T.J. McConnell,Rebounds,1.5,0.471,0.573,1.0,0.381,2.051,2.008
+DeMar DeRozan,Rebounds,4.0,0.47,0.501,0.0,0.263,3.9,3.701
+Paolo Banchero,Rebounds,6.5,0.466,0.492,1.0,0.371,6.515,6.779
+Ivica Zubac,Rebounds,13.0,0.458,0.52,1.0,0.575,13.328,12.318
+Evan Mobley,Rebounds,9.5,0.456,0.489,1.0,0.497,9.39,9.153
+Ja Morant,Rebounds,4.0,0.453,0.535,1.0,0.441,3.886,4.082
+Cole Anthony,Rebounds,4.0,0.452,0.424,0.0,0.576,3.512,3.769
+Jalen Green,Rebounds,6.5,0.446,0.392,0.0,0.37,5.766,6.056
+DaQuan Jeffries,Rebounds,6.5,0.439,0.418,0.0,0.038,5.628,5.651
+Nick Richards,Rebounds,11.5,0.429,0.476,1.0,0.282,9.543,9.574
+Wendell Carter Jr.,Rebounds,7.5,0.424,0.457,0.0,0.311,7.205,7.672
+Devin Vassell,Rebounds,4.5,0.407,0.406,0.0,0.225,4.245,4.073
+Isaiah Collier,Rebounds,4.5,0.392,0.41,0.0,0.472,4.137,3.799
+Malik Monk,Rebounds,5.5,0.39,0.378,0.0,0.41,4.225,4.111
+Isaac Okoro,Rebounds,3.5,0.387,0.362,0.0,0.024,2.6,2.537
+Dillon Brooks,Rebounds,5.5,0.373,0.444,0.0,0.592,4.653,4.163
+Max Strus,Rebounds,4.5,0.373,0.428,0.0,0.183,4.391,4.431
+Josh Green,Rebounds,5.5,0.371,0.298,0.0,0.102,3.767,3.553
+Naz Reid,Rebounds,8.5,0.357,0.413,0.0,0.182,7.409,7.516
+Chris Paul,Rebounds,4.5,0.354,0.403,0.0,0.217,3.712,3.494
+Caris LeVert,Rebounds,5.5,0.349,0.351,0.0,0.282,4.189,3.828
+Jaren Jackson Jr.,Rebounds,5.5,0.346,0.463,0.0,0.217,5.731,5.526
+Jaylen Wells,Rebounds,5.5,0.34,0.313,0.0,0.223,4.108,3.825
+Kentavious Caldwell-Pope,Rebounds,2.5,0.331,0.405,0.0,0.53,2.016,1.885
+Stephon Castle,Rebounds,6.5,0.324,0.314,0.0,0.151,5.613,6.194
+Terance Mann,Rebounds,5.5,0.321,0.324,0.0,0.1,4.027,3.753
+Trae Young,Rebounds,4.5,0.319,0.327,0.0,0.29,3.759,3.692
+Aaron Nesmith,Rebounds,6.5,0.317,0.304,0.0,0.104,5.431,5.566
+Jamal Murray,Rebounds,5.5,0.31,0.411,0.0,0.34,4.274,4.106
+Thomas Bryant,Rebounds,4.5,0.298,0.291,0.0,0.032,3.621,3.722
+Ty Jerome,Rebounds,4.5,0.254,0.33,0.0,0.019,3.258,3.591
+Andrew Nembhard,Rebounds,4.5,0.223,0.34,0.0,0.145,3.333,3.319
+Immanuel Quickley,Rebounds assists,8.5,0.706,0.623,1.0,0.651,9.403,8.666
+Jayson Tatum,Rebounds assists,15.5,0.689,0.632,1.0,0.648,16.557,15.978
+Walker Kessler,Rebounds assists,15.0,0.68,0.58,1.0,0.502,15.346,15.284
+James Harden,Rebounds assists,15.0,0.661,0.586,1.0,0.737,16.317,15.506
+Zach LaVine,Rebounds assists,8.0,0.64,0.554,1.0,0.363,8.806,8.524
+Chris Paul,Rebounds assists,11.0,0.627,0.513,1.0,0.517,10.951,11.409
+Christian Braun,Rebounds assists,7.5,0.62,0.56,1.0,0.475,8.08,7.853
+Tyler Herro,Rebounds assists,11.5,0.616,0.559,1.0,0.374,11.339,11.423
+Alperen Sengun,Rebounds assists,15.5,0.609,0.588,1.0,0.65,15.511,15.645
+Zach Edey,Rebounds assists,8.5,0.605,0.538,1.0,0.566,9.205,8.661
+Miles Bridges,Rebounds assists,12.5,0.603,0.601,1.0,0.608,13.277,12.768
+Devin Booker,Rebounds assists,11.5,0.602,0.581,1.0,0.439,12.311,11.628
+Jaden McDaniels,Rebounds assists,7.5,0.6,0.588,1.0,0.456,8.468,8.036
+Tari Eason,Rebounds assists,9.0,0.6,0.537,1.0,0.449,9.269,9.327
+Jabari Smith Jr.,Rebounds assists,7.5,0.599,0.572,1.0,0.398,8.154,7.826
+Lauri Markkanen,Rebounds assists,6.5,0.596,0.593,1.0,0.341,7.63,6.9
+Pascal Siakam,Rebounds assists,10.0,0.595,0.57,1.0,0.476,10.512,10.39
+Fred VanVleet,Rebounds assists,9.0,0.592,0.617,1.0,0.535,9.872,9.664
+Mark Williams,Rebounds assists,13.0,0.59,0.617,1.0,0.76,13.373,12.874
+Scottie Barnes,Rebounds assists,11.0,0.59,0.568,1.0,0.43,12.118,11.61
+Desmond Bane,Rebounds assists,11.5,0.583,0.606,1.0,0.499,11.991,11.626
+Jalen Green,Rebounds assists,8.5,0.583,0.536,1.0,0.512,9.002,8.635
+RJ Barrett,Rebounds assists,10.5,0.582,0.525,1.0,0.285,11.414,10.816
+Dyson Daniels,Rebounds assists,9.5,0.576,0.615,1.0,0.511,10.496,9.897
+Jamal Murray,Rebounds assists,9.0,0.574,0.622,0.0,0.331,9.963,9.698
+Caris LeVert,Rebounds assists,6.0,0.57,0.577,1.0,0.543,6.53,6.043
+Myles Turner,Rebounds assists,8.0,0.569,0.588,1.0,0.531,8.859,8.584
+Onyeka Okongwu,Rebounds assists,12.0,0.563,0.532,1.0,0.467,11.856,12.327
+Domantas Sabonis,Rebounds assists,16.5,0.56,0.604,1.0,0.812,17.196,16.883
+Andrew Nembhard,Rebounds assists,7.5,0.558,0.565,0.0,0.14,7.85,8.052
+Jarrett Allen,Rebounds assists,12.5,0.558,0.476,0.0,0.531,11.883,12.05
+Nick Richards,Rebounds assists,8.5,0.557,0.52,1.0,0.444,9.528,8.717
+Malik Monk,Rebounds assists,9.5,0.556,0.539,1.0,0.447,9.934,9.943
+Zaccharie Risacher,Rebounds assists,4.5,0.556,0.556,1.0,0.287,5.305,4.882
+Kevin Durant,Rebounds assists,10.5,0.551,0.539,0.0,0.428,11.235,10.658
+Anthony Edwards,Rebounds assists,10.0,0.55,0.582,1.0,0.525,10.623,10.705
+Bam Adebayo,Rebounds assists,14.0,0.549,0.559,1.0,0.679,14.571,14.428
+Nikola Jokic,Rebounds assists,22.5,0.545,0.636,1.0,0.696,21.227,21.67
+Ivica Zubac,Rebounds assists,15.5,0.541,0.587,1.0,0.66,16.309,15.633
+Andrew Wiggins,Rebounds assists,7.0,0.539,0.551,1.0,0.203,7.439,7.423
+Bradley Beal,Rebounds assists,7.5,0.535,0.532,1.0,0.476,8.225,8.016
+Ty Jerome,Rebounds assists,7.5,0.535,0.438,0.0,0.01,7.328,7.789
+Trae Young,Rebounds assists,13.5,0.53,0.57,1.0,0.667,14.227,13.667
+Darius Garland,Rebounds assists,11.0,0.52,0.556,0.0,0.592,11.484,11.506
+Tyrese Haliburton,Rebounds assists,12.5,0.519,0.522,0.0,0.538,12.562,12.648
+Isaiah Collier,Rebounds assists,10.5,0.518,0.604,1.0,0.466,11.458,10.744
+Ja Morant,Rebounds assists,11.5,0.515,0.511,0.0,0.495,11.461,11.462
+Davion Mitchell,Rebounds assists,6.0,0.511,0.491,0.0,0.424,6.092,6.114
+Stephon Castle,Rebounds assists,9.0,0.505,0.538,0.0,0.43,9.252,9.389
+Aaron Nesmith,Rebounds assists,5.5,0.5,0.513,1.0,0.029,5.635,5.799
+Julius Randle,Rebounds assists,11.5,0.496,0.52,1.0,0.398,11.729,11.546
+Collin Sexton,Rebounds assists,7.5,0.475,0.558,1.0,0.389,8.248,7.945
+Terance Mann,Rebounds assists,5.5,0.475,0.489,0.0,0.145,5.697,5.791
+Franz Wagner,Rebounds assists,9.5,0.473,0.441,1.0,0.267,9.934,10.051
+Harrison Barnes,Rebounds assists,5.5,0.473,0.524,1.0,0.481,5.98,5.749
+Evan Mobley,Rebounds assists,13.5,0.472,0.549,1.0,0.591,13.527,13.982
+T.J. McConnell,Rebounds assists,7.0,0.469,0.545,0.0,0.241,6.717,6.761
+Wendell Carter Jr.,Rebounds assists,9.5,0.459,0.463,0.0,0.419,9.688,9.958
+Klay Thompson,Rebounds assists,6.0,0.452,0.52,1.0,0.612,6.15,5.998
+DaQuan Jeffries,Rebounds assists,5.5,0.444,0.492,0.0,0.065,5.291,5.344
+Austin Reaves,Rebounds assists,11.5,0.43,0.462,1.0,0.135,11.629,11.425
+Paolo Banchero,Rebounds assists,11.0,0.427,0.487,1.0,0.309,11.403,11.469
+DeMar DeRozan,Rebounds assists,8.5,0.419,0.493,1.0,0.24,8.973,8.802
+LaMelo Ball,Rebounds assists,13.5,0.416,0.509,1.0,0.477,14.058,13.972
+Devin Vassell,Rebounds assists,8.0,0.401,0.487,1.0,0.183,8.17,8.34
+Cole Anthony,Rebounds assists,7.5,0.339,0.433,1.0,0.573,7.1,7.628
+P.J. Washington,Rebounds assists,8.5,0.257,0.413,0.0,0.646,8.242,8.829
+Dalton Knecht,Rebounds assists,6.5,0.215,0.426,0.0,0.124,6.205,6.557
+Alperen Sengun,Steals,0.5,0.678,0.681,1.0,0.763,1.135,1.121
+Desmond Bane,Steals,0.5,0.676,0.652,1.0,0.772,1.163,1.179
+Dyson Daniels,Steals,1.5,0.675,0.669,1.0,0.889,2.712,2.733
+Christian Braun,Steals,0.5,0.67,0.679,1.0,0.884,1.03,1.105
+Mouhamed Gueye,Steals,0.5,0.669,0.676,1.0,0.754,1.103,1.096
+Josh Green,Steals,0.5,0.662,0.648,1.0,0.694,1.119,1.15
+Pascal Siakam,Steals,0.5,0.646,0.583,1.0,0.697,0.873,0.885
+Trae Young,Steals,0.5,0.646,0.69,1.0,0.798,1.228,1.147
+Bradley Beal,Steals,0.5,0.64,0.637,1.0,0.919,0.96,0.969
+Bam Adebayo,Steals,0.5,0.639,0.635,1.0,0.55,1.092,1.278
+Devin Booker,Steals,0.5,0.639,0.614,1.0,0.659,1.028,0.977
+DeMar DeRozan,Steals,0.5,0.627,0.618,1.0,0.703,0.89,0.923
+Jarrett Allen,Steals,0.5,0.627,0.597,1.0,0.397,1.013,1.015
+Malik Monk,Steals,0.5,0.624,0.685,1.0,0.786,0.984,1.051
+Ivica Zubac,Steals,0.5,0.618,0.602,1.0,0.526,0.794,0.825
+Caris LeVert,Steals,0.5,0.601,0.579,1.0,0.71,0.917,0.931
+Jaren Jackson Jr.,Steals,0.5,0.599,0.637,1.0,0.878,1.11,1.246
+RJ Barrett,Steals,0.5,0.596,0.583,1.0,0.228,0.947,0.895
+James Harden,Steals,1.5,0.59,0.535,0.0,0.633,1.619,1.574
+Kevin Durant,Steals,0.5,0.576,0.575,1.0,0.699,0.854,0.815
+Mark Williams,Steals,0.5,0.576,0.523,1.0,0.872,0.699,0.689
+Zaccharie Risacher,Steals,0.5,0.574,0.587,1.0,0.629,0.89,0.847
+Keegan Murray,Steals,0.5,0.572,0.55,1.0,0.732,0.797,0.784
+LaMelo Ball,Steals,1.5,0.543,0.449,0.0,0.884,1.369,1.235
+Dante Exum,Steals,0.5,0.532,0.564,1.0,0.706,0.774,0.722
+Darius Garland,Steals,1.5,0.531,0.443,0.0,0.679,1.331,1.238
+Fred VanVleet,Steals,1.5,0.529,0.504,0.0,0.593,1.556,1.548
+Tyler Herro,Steals,0.5,0.524,0.501,1.0,0.457,0.781,0.798
+Davion Mitchell,Steals,0.5,0.484,0.447,1.0,0.584,0.733,0.731
+P.J. Washington,Steals,0.5,0.478,0.649,1.0,0.499,1.033,1.13
+Kris Dunn,Steals,2.5,0.456,0.409,0.0,0.579,1.873,1.757
+Kawhi Leonard,Steals,1.5,0.443,0.453,0.0,0.718,1.417,1.297
+Jamal Murray,Steals,2.5,0.431,0.478,0.0,0.355,1.75,1.44
+Isaac Okoro,Steals,0.5,0.428,0.446,0.0,0.184,0.584,0.64
+Jaden McDaniels,Steals,1.5,0.421,0.417,0.0,0.462,1.472,1.491
+Chris Paul,Steals,2.5,0.408,0.39,0.0,0.266,1.682,1.379
+Nikola Jokic,Steals,2.5,0.408,0.471,0.0,0.54,1.893,1.727
+Immanuel Quickley,Steals,0.5,0.399,0.503,1.0,0.236,0.801,0.678
+Aaron Gordon,Steals,0.5,0.395,0.412,0.0,0.369,0.515,0.509
+Devin Vassell,Steals,2.5,0.379,0.399,0.0,0.306,1.822,1.458
+Ja Morant,Steals,1.5,0.374,0.401,0.0,0.644,1.265,1.219
+Harrison Barnes,Steals,1.5,0.364,0.297,0.0,0.183,0.623,0.545
+Scottie Barnes,Steals,2.5,0.318,0.461,0.0,0.393,1.726,1.575
+Ty Jerome,Steals,1.5,0.305,0.388,0.0,0.7,1.33,1.268
+Jaylen Wells,Steals,0.5,0.304,0.395,0.0,0.237,0.554,0.557
+Domantas Sabonis,Steals,1.5,0.271,0.219,0.0,0.136,0.714,0.7
+Isaiah Collier,Steals,1.5,0.247,0.311,0.0,0.596,1.134,0.961
+Onyeka Okongwu,Steals,2.5,0.244,0.285,0.0,0.153,1.417,0.97
+Stephon Castle,Steals,2.5,0.237,0.26,0.0,0.218,1.453,0.976
+DaQuan Jeffries,Steals,1.5,0.224,0.347,0.0,0.308,0.898,0.639
+Jayson Tatum,Steals,2.5,0.221,0.305,0.0,0.15,1.574,1.095
+Miles Bridges,Steals,1.5,0.22,0.262,0.0,0.553,0.957,0.831
+Zach LaVine,Steals,2.5,0.219,0.284,0.0,0.136,1.279,0.922
+Lauri Markkanen,Steals,1.5,0.204,0.238,0.0,0.277,0.948,0.865
+Andrew Wiggins,Steals,1.5,0.2,0.199,0.0,0.29,0.907,0.868
+Collin Sexton,Steals,1.5,0.196,0.322,0.0,0.241,0.878,0.759
+Michael Porter Jr.,Steals,1.5,0.195,0.207,0.0,0.114,0.8,0.691
+Walker Kessler,Steals,1.5,0.175,0.266,0.0,0.192,0.802,0.727
+Terance Mann,Steals,1.5,0.161,0.229,0.0,0.446,0.988,0.769
+Nick Richards,Steals,0.5,0.16,0.184,0.0,0.081,0.24,0.26
+Kel'el Ware,Steals,1.5,0.156,0.138,0.0,0.26,0.662,0.644
+Scottie Barnes,Steals blocks,2.5,0.614,0.533,0.0,0.346,2.839,2.724
+Alperen Sengun,Steals blocks,1.5,0.515,0.539,1.0,0.185,1.897,1.846
+Nikola Jokic,Steals blocks,2.5,0.509,0.525,0.0,0.379,2.412,2.372
+Malik Monk,Steals blocks,1.5,0.503,0.449,0.0,0.156,1.513,1.53
+Miles Bridges,Steals blocks,1.5,0.478,0.473,1.0,0.312,2.009,1.674
+Keegan Murray,Steals blocks,1.5,0.472,0.438,0.0,0.178,1.57,1.613
+Duncan Robinson,Steals blocks,0.5,0.464,0.381,0.0,0.018,0.564,0.708
+Andrew Wiggins,Steals blocks,1.5,0.386,0.414,0.0,0.187,1.552,1.606
+P.J. Washington,Threes,0.5,0.816,0.745,1.0,0.728,1.373,1.598
+Josh Green,Threes,0.5,0.768,0.744,1.0,0.848,1.461,1.443
+Franz Wagner,Threes,0.5,0.732,0.795,1.0,0.653,1.717,1.767
+Max Strus,Threes,1.5,0.725,0.606,1.0,0.68,2.273,2.159
+Tari Eason,Threes,0.5,0.719,0.706,1.0,0.752,1.256,1.227
+Dillon Brooks,Threes,1.5,0.697,0.642,1.0,0.89,2.415,2.334
+Julius Randle,Threes,0.5,0.694,0.743,1.0,0.514,1.447,1.495
+Devin Booker,Threes,1.5,0.69,0.624,1.0,0.714,2.598,2.506
+Anthony Edwards,Threes,2.5,0.681,0.753,1.0,0.818,3.773,4.26
+Michael Porter Jr.,Threes,1.5,0.645,0.602,1.0,0.783,2.394,2.351
+Nikola Jokic,Threes,1.5,0.645,0.564,1.0,0.615,1.853,1.886
+Christian Braun,Threes,0.5,0.643,0.654,1.0,0.526,1.103,1.228
+Isaac Okoro,Threes,0.5,0.636,0.683,1.0,0.698,1.151,1.11
+Zach LaVine,Threes,2.5,0.598,0.6,1.0,0.75,2.967,2.92
+Darius Garland,Threes,2.5,0.591,0.601,1.0,0.717,2.937,2.854
+Ty Jerome,Threes,1.5,0.584,0.506,0.0,0.579,1.576,1.518
+Kris Dunn,Threes,0.5,0.568,0.57,1.0,0.261,0.984,0.985
+DeMar DeRozan,Threes,0.5,0.566,0.593,1.0,0.643,1.001,0.991
+LaMelo Ball,Threes,5.5,0.563,0.456,0.0,0.523,3.139,3.26
+Jabari Smith Jr.,Threes,1.5,0.553,0.556,1.0,0.723,1.789,1.736
+Mike Conley,Threes,1.5,0.545,0.484,0.0,0.299,1.591,1.81
+Terance Mann,Threes,0.5,0.544,0.616,1.0,0.419,1.015,0.948
+Jalen Green,Threes,2.5,0.542,0.565,1.0,0.769,2.751,2.761
+Domantas Sabonis,Threes,0.5,0.533,0.588,1.0,0.413,0.913,1.042
+Tyrese Haliburton,Threes,2.5,0.533,0.491,1.0,0.743,2.712,2.813
+Andrew Nembhard,Threes,0.5,0.525,0.503,1.0,0.002,0.762,0.845
+Chris Paul,Threes,1.5,0.517,0.466,0.0,0.483,1.609,1.544
+Immanuel Quickley,Threes,2.5,0.515,0.505,0.0,0.75,2.767,2.562
+Jayson Tatum,Threes,5.5,0.499,0.417,0.0,0.396,3.76,3.417
+Miles Bridges,Threes,2.5,0.495,0.436,0.0,0.672,2.468,2.378
+Kawhi Leonard,Threes,1.5,0.492,0.557,1.0,0.353,2.066,1.902
+Pascal Siakam,Threes,1.5,0.486,0.486,0.0,0.504,1.493,1.666
+Jaren Jackson Jr.,Threes,1.5,0.484,0.497,1.0,0.746,1.618,1.861
+Devin Vassell,Threes,2.5,0.473,0.432,0.0,0.509,2.318,2.236
+Lauri Markkanen,Threes,4.5,0.462,0.335,0.0,0.475,2.81,2.775
+Collin Sexton,Threes,1.5,0.44,0.481,1.0,0.686,1.524,1.75
+Kevin Durant,Threes,2.5,0.435,0.455,1.0,0.653,2.49,2.337
+Wendell Carter Jr.,Threes,0.5,0.432,0.438,0.0,0.002,0.548,0.502
+Trae Young,Threes,1.5,0.427,0.489,1.0,0.755,2.387,2.581
+Keegan Murray,Threes,3.5,0.422,0.25,0.0,0.194,1.869,1.954
+Onyeka Okongwu,Threes,0.5,0.421,0.402,0.0,0.002,0.533,0.519
+Jeremy Sochan,Threes,0.5,0.419,0.422,0.0,0.002,0.526,0.469
+Evan Mobley,Threes,1.5,0.413,0.357,0.0,0.035,1.242,1.161
+Tyler Herro,Threes,3.5,0.409,0.415,0.0,0.508,3.18,3.23
+Klay Thompson,Threes,5.5,0.406,0.446,1.0,0.453,2.933,2.94
+RJ Barrett,Threes,2.5,0.39,0.336,0.0,0.651,1.959,1.951
+Harrison Barnes,Threes,2.5,0.383,0.395,0.0,0.459,1.907,1.791
+Caris LeVert,Threes,2.5,0.377,0.365,0.0,0.397,1.875,1.735
+Mouhamed Gueye,Threes,1.5,0.365,0.273,0.0,0.006,0.877,0.829
+De'Andre Hunter,Threes,2.5,0.363,0.437,0.0,0.484,2.243,2.224
+Bradley Beal,Threes,2.5,0.355,0.363,0.0,0.459,1.86,1.89
+Keldon Johnson,Threes,1.5,0.352,0.382,0.0,0.151,1.247,1.226
+Myles Turner,Threes,3.5,0.352,0.27,0.0,0.106,1.844,2.135
+Nicolas Batum,Threes,1.5,0.349,0.357,0.0,0.304,1.282,1.163
+Aaron Gordon,Threes,2.5,0.338,0.268,0.0,0.11,1.531,1.487
+Davion Mitchell,Threes,1.5,0.33,0.28,0.0,0.215,1.075,1.049
+Jaylen Wells,Threes,2.5,0.325,0.337,0.0,0.248,1.985,1.814
+Ja Morant,Threes,2.5,0.322,0.314,0.0,0.262,1.805,1.613
+Malik Monk,Threes,3.5,0.319,0.252,0.0,0.241,2.235,2.22
+Alperen Sengun,Threes,0.5,0.317,0.337,0.0,0.001,0.301,0.309
+Zaccharie Risacher,Threes,2.5,0.307,0.316,0.0,0.367,1.637,1.528
+James Harden,Threes,5.5,0.306,0.303,0.0,0.262,3.229,2.909
+Dyson Daniels,Threes,1.5,0.293,0.281,0.0,0.021,1.074,1.111
+Aaron Nesmith,Threes,2.5,0.276,0.323,0.0,0.222,1.729,1.607
+DaQuan Jeffries,Threes,2.5,0.273,0.192,0.0,0.005,1.131,0.959
+Paolo Banchero,Threes,2.5,0.267,0.28,0.0,0.254,1.844,1.88
+Jamal Murray,Threes,3.5,0.266,0.267,0.0,0.235,2.163,2.222
+Fred VanVleet,Threes,3.5,0.263,0.329,0.0,0.528,2.439,2.427
+Zach Edey,Threes,0.5,0.242,0.182,0.0,0.011,0.366,0.306
+Scottie Barnes,Threes,1.5,0.234,0.292,0.0,0.067,1.117,1.092
+Duncan Robinson,Threes,4.5,0.208,0.216,0.0,0.284,2.226,2.272
+Andrew Wiggins,Threes,3.5,0.206,0.226,0.0,0.29,2.023,2.058
+Bam Adebayo,Threes,1.5,0.203,0.221,0.0,0.161,0.896,0.935
+Kel'el Ware,Threes,1.5,0.19,0.183,0.0,0.001,0.631,0.605
+Stephon Castle,Threes,2.5,0.187,0.228,0.0,0.033,1.333,1.366
+Desmond Bane,Threes,3.5,0.173,0.255,0.0,0.203,2.07,2.083
+Isaiah Collier,Threes,1.5,0.14,0.173,0.0,0.001,0.676,0.596
+Dillon Brooks,Turnovers,0.5,0.693,0.683,1.0,0.127,1.079,1.088
+Jamal Murray,Turnovers,1.5,0.673,0.614,1.0,0.145,2.056,2.102
+Josh Green,Turnovers,0.5,0.632,0.635,1.0,0.303,1.049,1.029
+Aaron Nesmith,Turnovers,0.5,0.629,0.619,1.0,0.116,1.019,0.93
+Stephon Castle,Turnovers,1.5,0.618,0.626,1.0,0.153,2.157,2.025
+Jaylen Wells,Turnovers,0.5,0.589,0.599,1.0,0.097,0.907,0.93
+Christian Braun,Turnovers,0.5,0.584,0.641,1.0,0.09,0.937,0.995
+Alperen Sengun,Turnovers,2.5,0.547,0.552,1.0,0.167,3.055,2.813
+DaQuan Jeffries,Turnovers,0.5,0.544,0.533,0.0,0.265,0.667,0.659
+Immanuel Quickley,Turnovers,1.5,0.539,0.486,0.0,0.095,1.76,1.758
+Kel'el Ware,Turnovers,0.5,0.497,0.555,1.0,0.245,0.864,0.892
+Desmond Bane,Turnovers,2.5,0.492,0.431,1.0,0.152,2.587,2.621
+Lauri Markkanen,Turnovers,1.5,0.456,0.439,0.0,0.09,1.421,1.368
+Dyson Daniels,Turnovers,2.5,0.445,0.373,0.0,0.1,2.141,1.999
+Jabari Smith Jr.,Turnovers,1.5,0.42,0.33,0.0,0.074,1.081,1.048
+Devin Vassell,Turnovers,1.5,0.416,0.485,0.0,0.11,1.583,1.532
+Jarrett Allen,Turnovers,1.5,0.416,0.379,0.0,0.094,1.271,1.193
+Fred VanVleet,Turnovers,1.5,0.414,0.455,0.0,0.086,1.571,1.473
+Zaccharie Risacher,Turnovers,1.5,0.412,0.348,0.0,0.091,1.299,1.354
+Tyler Herro,Turnovers,2.5,0.395,0.403,0.0,0.114,2.593,2.648
+De'Andre Hunter,Turnovers,1.5,0.377,0.498,0.0,0.073,1.343,1.357
+Tari Eason,Turnovers,1.5,0.369,0.309,0.0,0.08,1.247,1.257
+Aaron Gordon,Turnovers,1.5,0.298,0.303,0.0,0.08,1.287,1.327
+Max Strus,Turnovers,1.5,0.291,0.422,0.0,0.085,1.11,1.063
